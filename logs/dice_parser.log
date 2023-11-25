@@ -1,0 +1,949 @@
+2023-11-25 18:14:54.661 | SUCCESS  | src.main:start:205 - Parser started..
+2023-11-25 18:14:55.343 | INFO     | src.main:get_all_jobs:69 - Total count of jobs: 4577
+2023-11-25 18:14:55.712 | ERROR    | src.main:start:216 - Failed to get jobs | Client error '400 Bad Request' for url 'https://job-search-api.svc.dhigroupinc.com/v1/dice/jobs/search?q=microsoft&countryCode2=US&radius=30&radiusUnit=mi&page=1&pageSize=4577&facets=employmentType%7CpostedDate%7CworkFromHomeAvailability%7CemployerType%7CeasyApply%7CisRemote&fields=id%7CjobId%7Cguid%7Csummary%7Ctitle%7CpostedDate%7CmodifiedDate%7CjobLocation.displayName%7CdetailsPageUrl%7Csalary%7CclientBrandId%7CcompanyPageUrl%7CcompanyLogoUrl%7CpositionId%7CcompanyName%7CemploymentType%7CisHighlighted%7Cscore%7CeasyApply%7CemployerType%7CworkFromHomeAvailability%7CisRemote%7Cdebug&culture=en&recommendations=true&interactionId=0&fj=true&includeRemote=true'
+For more information check: https://httpstatuses.com/400 | Parser stopped..
+2023-11-25 18:15:45.223 | SUCCESS  | src.main:start:203 - Parser started..
+2023-11-25 18:15:45.847 | INFO     | src.main:get_all_jobs:67 - Total count of jobs: 4577
+2023-11-25 18:15:46.222 | ERROR    | src.main:start:214 - Failed to get jobs | Client error '400 Bad Request' for url 'https://job-search-api.svc.dhigroupinc.com/v1/dice/jobs/search?q=microsoft&radius=30&radiusUnit=mi&page=1&pageSize=4577&facets=employmentType%7CpostedDate%7CworkFromHomeAvailability%7CemployerType%7CeasyApply%7CisRemote&fields=id%7CjobId%7Cguid%7Csummary%7Ctitle%7CpostedDate%7CmodifiedDate%7CjobLocation.displayName%7CdetailsPageUrl%7Csalary%7CclientBrandId%7CcompanyPageUrl%7CcompanyLogoUrl%7CpositionId%7CcompanyName%7CemploymentType%7CisHighlighted%7Cscore%7CeasyApply%7CemployerType%7CworkFromHomeAvailability%7CisRemote%7Cdebug&culture=en&recommendations=true&fj=true&includeRemote=true'
+For more information check: https://httpstatuses.com/400 | Parser stopped..
+2023-11-25 18:16:57.466 | SUCCESS  | src.main:start:205 - Parser started..
+2023-11-25 18:16:58.089 | INFO     | src.main:get_all_jobs:69 - Total count of jobs: 340
+2023-11-25 18:17:00.184 | INFO     | src.main:get_jobs_details:168 - Thread 1 | Got 34 jobs
+2023-11-25 18:17:00.185 | INFO     | src.main:get_jobs_details:168 - Thread 2 | Got 34 jobs
+2023-11-25 18:17:00.185 | INFO     | src.main:get_jobs_details:168 - Thread 3 | Got 34 jobs
+2023-11-25 18:17:00.185 | INFO     | src.main:get_jobs_details:168 - Thread 4 | Got 34 jobs
+2023-11-25 18:17:00.186 | INFO     | src.main:get_jobs_details:168 - Thread 5 | Got 34 jobs
+2023-11-25 18:17:00.186 | INFO     | src.main:get_jobs_details:168 - Thread 6 | Got 34 jobs
+2023-11-25 18:17:00.186 | INFO     | src.main:get_jobs_details:168 - Thread 7 | Got 34 jobs
+2023-11-25 18:17:00.187 | INFO     | src.main:get_jobs_details:168 - Thread 8 | Got 34 jobs
+2023-11-25 18:17:00.187 | INFO     | src.main:get_jobs_details:168 - Thread 9 | Got 34 jobs
+2023-11-25 18:17:00.187 | INFO     | src.main:get_jobs_details:168 - Thread 10 | Got 34 jobs
+2023-11-25 18:17:00.996 | INFO     | src.main:get_job_details:158 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/6fba5bfd-c21c-4a79-929d-073183d2cf2d
+2023-11-25 18:17:01.107 | INFO     | src.main:get_job_details:158 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/818b013a-43ac-4d21-9c6f-d4c52fbe8d78
+2023-11-25 18:17:01.126 | INFO     | src.main:get_job_details:158 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/8e16c041-8473-4d65-8417-a980a500b336
+2023-11-25 18:17:01.178 | INFO     | src.main:get_job_details:158 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/509d7a64-913b-4d43-a2d3-da6363e82920
+2023-11-25 18:17:01.190 | INFO     | src.main:get_job_details:158 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/e1125140-3c85-467a-a84b-0c5507f471e7
+2023-11-25 18:17:01.235 | INFO     | src.main:get_job_details:158 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/55d345ef-4e20-4b02-b339-f71cebf6a17c
+2023-11-25 18:17:01.247 | INFO     | src.main:get_job_details:158 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/385bf5e1-0a57-43d6-bd56-a2270ed7214e
+2023-11-25 18:17:01.321 | INFO     | src.main:get_job_details:158 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/0806478c-e16c-4d5c-a72d-6aacfa86e4cd
+2023-11-25 18:17:01.343 | INFO     | src.main:get_job_details:158 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/a36d4ae2-d4ea-4055-9d1e-41b28f6aed45
+2023-11-25 18:17:01.427 | INFO     | src.main:get_job_details:158 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/c80c033a-1131-4cba-90fd-545cb03bbb3c
+2023-11-25 18:17:01.443 | INFO     | src.main:get_job_details:158 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/fe2af696-6df4-4975-87df-4772d2ddbdeb
+2023-11-25 18:17:38.823 | SUCCESS  | src.main:start:205 - Parser started..
+2023-11-25 18:17:39.452 | INFO     | src.main:get_all_jobs:69 - Total count of jobs: 4577
+2023-11-25 18:17:39.841 | ERROR    | src.main:start:216 - Failed to get jobs | Client error '400 Bad Request' for url 'https://job-search-api.svc.dhigroupinc.com/v1/dice/jobs/search?q=microsoft&countryCode2=US&radius=30&radiusUnit=mi&page=1&pageSize=4577&facets=employmentType%7CpostedDate%7CworkFromHomeAvailability%7CemployerType%7CeasyApply%7CisRemote&fields=id%7CjobId%7Cguid%7Csummary%7Ctitle%7CpostedDate%7CmodifiedDate%7CjobLocation.displayName%7CdetailsPageUrl%7Csalary%7CclientBrandId%7CcompanyPageUrl%7CcompanyLogoUrl%7CpositionId%7CcompanyName%7CemploymentType%7CisHighlighted%7Cscore%7CeasyApply%7CemployerType%7CworkFromHomeAvailability%7CisRemote%7Cdebug&culture=en&recommendations=true&interactionId=0&fj=true&includeRemote=true'
+For more information check: https://httpstatuses.com/400 | Parser stopped..
+2023-11-25 18:17:59.010 | SUCCESS  | src.main:start:206 - Parser started..
+2023-11-25 18:17:59.683 | INFO     | src.main:get_all_jobs:69 - Total count of jobs: 4577
+2023-11-25 18:18:00.072 | ERROR    | src.main:start:217 - Failed to get jobs | Client error '400 Bad Request' for url 'https://job-search-api.svc.dhigroupinc.com/v1/dice/jobs/search?q=microsoft&countryCode2=US&radius=30&radiusUnit=mi&page=1&pageSize=4577&facets=employmentType%7CpostedDate%7CworkFromHomeAvailability%7CemployerType%7CeasyApply%7CisRemote&fields=id%7CjobId%7Cguid%7Csummary%7Ctitle%7CpostedDate%7CmodifiedDate%7CjobLocation.displayName%7CdetailsPageUrl%7Csalary%7CclientBrandId%7CcompanyPageUrl%7CcompanyLogoUrl%7CpositionId%7CcompanyName%7CemploymentType%7CisHighlighted%7Cscore%7CeasyApply%7CemployerType%7CworkFromHomeAvailability%7CisRemote%7Cdebug&culture=en&recommendations=true&interactionId=0&fj=true&includeRemote=true'
+For more information check: https://httpstatuses.com/400 | Parser stopped..
+2023-11-25 18:19:15.379 | SUCCESS  | src.main:start:217 - Parser started..
+2023-11-25 18:19:16.061 | INFO     | src.main:get_all_jobs:69 - Total count of jobs: 4577
+2023-11-25 18:19:28.889 | INFO     | src.main:get_jobs_details:180 - Thread 1 | Got 458 jobs
+2023-11-25 18:19:28.890 | INFO     | src.main:get_jobs_details:180 - Thread 2 | Got 458 jobs
+2023-11-25 18:19:28.890 | INFO     | src.main:get_jobs_details:180 - Thread 3 | Got 458 jobs
+2023-11-25 18:19:28.890 | INFO     | src.main:get_jobs_details:180 - Thread 4 | Got 458 jobs
+2023-11-25 18:19:28.890 | INFO     | src.main:get_jobs_details:180 - Thread 5 | Got 458 jobs
+2023-11-25 18:19:28.891 | INFO     | src.main:get_jobs_details:180 - Thread 6 | Got 458 jobs
+2023-11-25 18:19:28.891 | INFO     | src.main:get_jobs_details:180 - Thread 7 | Got 458 jobs
+2023-11-25 18:19:28.891 | INFO     | src.main:get_jobs_details:180 - Thread 8 | Got 457 jobs
+2023-11-25 18:19:28.891 | INFO     | src.main:get_jobs_details:180 - Thread 9 | Got 457 jobs
+2023-11-25 18:19:28.892 | INFO     | src.main:get_jobs_details:180 - Thread 10 | Got 457 jobs
+2023-11-25 18:19:29.682 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/5e13449c-c1cd-4bde-88a5-f5e3780561c1
+2023-11-25 18:19:29.722 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/66cb4c5b-c925-418d-a22f-883ecdc3980d
+2023-11-25 18:19:29.755 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/0589d8ca-cb20-4a83-b1d0-9e91c5e26082
+2023-11-25 18:19:29.770 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/7f328a44-a47d-4464-8746-138c39694292
+2023-11-25 18:19:29.800 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/6cf4c9a5-0135-4ac7-8f05-419fec7a5953
+2023-11-25 18:19:29.831 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/339adf69-f0ea-413d-9474-da63b7bb8856
+2023-11-25 18:19:29.858 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/19863693-0f56-4032-aa83-2599e556c160
+2023-11-25 18:19:29.868 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/6639d2a5-62b3-461d-9fe4-3b6e824a77f9
+2023-11-25 18:19:29.908 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/c6b2778f-bdd4-4253-8f03-093b71d8d953
+2023-11-25 18:19:29.979 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/682359e1-2ae9-44ee-9559-ba3ab9456375
+2023-11-25 18:19:30.053 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/f2d35bbe-19f7-41cd-b7a8-41624457f510
+2023-11-25 18:19:30.191 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/a271a172-6124-4413-9b8e-23c9e78803fe
+2023-11-25 18:19:30.263 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/0421c463-7814-4651-89ac-14217e62ae4f
+2023-11-25 18:19:30.273 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/0de1412f-8726-479b-9477-b57bae538f86
+2023-11-25 18:19:30.288 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/b84518e7-9009-4446-b0cf-36d0de01c5b7
+2023-11-25 18:19:30.334 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/e4e4773d-98f5-4983-80d1-9b0fb319126a
+2023-11-25 18:19:30.343 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/4fe23a05-e578-4e61-b0ef-56db94de6c04
+2023-11-25 18:19:30.397 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/5c50f5e4-0e7e-4a9e-9072-8f949d5cc7d0
+2023-11-25 18:19:30.450 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/ffc93b6e-f9b2-45d8-b1b6-b5bbe2d67e91
+2023-11-25 18:19:30.457 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/69384fac-e09e-455f-95b7-735cf4666830
+2023-11-25 18:19:30.519 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/c1580aa1-dd7b-4d16-9e4f-40c741a16f5e
+2023-11-25 18:19:30.608 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/3725899d-d0f2-49a5-8ac5-fb718d4c576f
+2023-11-25 18:19:30.617 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/aca98dee-9e58-4885-a16e-ae4ebea787c7
+2023-11-25 18:19:30.633 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/c68921cc-6864-4371-910a-a4c6aa1e52da
+2023-11-25 18:19:30.642 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/0cb94001-abe3-4831-b41e-e1f53b1a2156
+2023-11-25 18:19:30.720 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/a27c1e9c-5a12-4760-b43a-e8a66a7859e4
+2023-11-25 18:19:30.756 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/9747fb46-fe7c-4d6d-9eec-e576e503ad6b
+2023-11-25 18:19:30.815 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/f1f0c634-499c-4bb6-bc72-35bdc74dc232
+2023-11-25 18:19:30.837 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/f516b46d-2b6e-4f08-bab5-d4d1583798e0
+2023-11-25 18:19:30.863 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/10f2aacc-858d-4f48-bf41-f98adac59bef
+2023-11-25 18:19:30.951 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/55f5071b-1704-424b-bb4b-ce4c911fbc71
+2023-11-25 18:19:30.972 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/d2be585c-4ac5-4b9c-b461-eaeafcc93dd1
+2023-11-25 18:19:31.002 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/26f7368c-7d2e-4f3a-bfa7-1807d60615a3
+2023-11-25 18:19:31.011 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/244102b2-3c61-400f-98d0-47dd1636c1c5
+2023-11-25 18:19:31.095 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/66214f45-f19f-4199-a07c-f7fef9ea937a
+2023-11-25 18:19:31.105 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/69b67481-143d-4a65-902f-e82eb15af6c5
+2023-11-25 18:19:31.236 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/50c54d23-7e84-4d60-a524-660bd302d657
+2023-11-25 18:19:31.330 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/7386ba7f-fc4b-42ec-b5d3-e3c59e266993
+2023-11-25 18:19:31.367 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/88cce735-46ed-430d-9439-88f1dd9b212c
+2023-11-25 18:19:31.380 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/38105d7c-9dbe-479f-9509-ff1e74459d5b
+2023-11-25 18:19:31.387 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/744268d1-038b-415a-955f-38e6cfca9621
+2023-11-25 18:19:31.395 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/17d2b961-bc42-4dc3-8e30-a7cd84a2c9c3
+2023-11-25 18:19:31.590 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/f935d4d2-62d8-472b-9523-06744a3643f6
+2023-11-25 18:19:31.615 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/53ad801d-cdb1-4854-a483-d059f28d6341
+2023-11-25 18:19:31.669 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/9e1d36f8-8437-4d85-b779-f453d734b652
+2023-11-25 18:19:31.679 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/88a76621-2ec3-4be6-9751-785a04d1a174
+2023-11-25 18:19:31.759 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/ef0ce127-7366-4a5a-b2e0-6b2c05a918b2
+2023-11-25 18:19:31.772 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/2a1d42bc-1d1b-44ce-8f29-9ab557c27780
+2023-11-25 18:19:31.782 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/f7cffd10-6376-48c7-83f9-f968e2ef60c4
+2023-11-25 18:19:31.801 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/27dabfad-f459-476c-8db0-95dea1ebb7b2
+2023-11-25 18:19:31.875 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/c3acd364-a4d3-4f6c-80e8-91f5fe92008f
+2023-11-25 18:19:31.950 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/c27c7c22-491d-499a-8335-7c358a603398
+2023-11-25 18:19:31.975 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/906ccdad-548e-496e-8fd2-c3396bb7b615
+2023-11-25 18:19:31.984 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/d9b12351-f98c-459c-af0c-d56b034cefa4
+2023-11-25 18:19:32.047 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/2b7d513d-664d-4ee0-8757-bcf57245fbec
+2023-11-25 18:19:32.054 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/31c18cc3-8d6c-4443-99ff-54781c4fc6df
+2023-11-25 18:19:32.104 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/46f775e8-afb4-44e4-9f34-3cb3792b4fbd
+2023-11-25 18:19:32.139 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/a718f1fa-3202-4592-a545-93be2e56aaaa
+2023-11-25 18:19:32.157 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/faebecb9-cfb8-486a-bd30-861449964ec4
+2023-11-25 18:19:32.181 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/092527d0-1113-4ca2-8d83-0851fca7b1bf
+2023-11-25 18:19:32.347 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/29cc9f70-6ade-4eee-b562-c2f9837db931
+2023-11-25 18:19:32.406 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/963f7c3e-e8fc-420b-b438-c81be06794c7
+2023-11-25 18:19:32.420 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/d20e768d-bbf5-45b4-a601-80b95aeaa676
+2023-11-25 18:19:32.446 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/27597e7f-bbb2-4bac-a410-cc103be8238a
+2023-11-25 18:19:32.492 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/60647db4-84a4-46a8-be33-12a74152aa49
+2023-11-25 18:19:32.547 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/9d4796e5-f777-4153-8531-d41f62413430
+2023-11-25 18:19:32.556 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/8698427e-a0f4-4227-8a96-613883e92d3e
+2023-11-25 18:19:32.563 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/d292299b-7eae-49e7-8b90-056f84cb8cc3
+2023-11-25 18:19:32.570 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/c0f2ae6f-d2f1-42a0-a172-cc176d8328bd
+2023-11-25 18:19:32.714 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/2c07b3d3-dad0-47a2-b3c3-04181531e29c
+2023-11-25 18:19:32.755 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/810b0839-fc92-432e-8724-02b9b0ebab1a
+2023-11-25 18:19:32.768 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/0ffcbaa2-d5e5-47db-9c85-43fc056f75bf
+2023-11-25 18:19:32.806 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/41908f4e-2918-4f23-9c72-28c7fdb4cd07
+2023-11-25 18:19:32.882 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/96998168-64b3-4eff-927f-7aebae34a8ee
+2023-11-25 18:19:32.891 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/9e2cec0e-8692-4b00-9f9a-4b5e59ffd2e4
+2023-11-25 18:19:32.909 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/6b9c54c7-689a-4473-9a8e-0467510e084f
+2023-11-25 18:19:32.916 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/a76d6078-7207-48b2-83d8-77d2b239a05f
+2023-11-25 18:19:32.948 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/080d8303-b491-44dd-89d3-308726c7b052
+2023-11-25 18:19:33.062 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/5c62b696-770f-48f9-a2d9-37b3a731d371
+2023-11-25 18:19:33.138 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/6b2400f0-fd0e-46c7-aeb5-b549d5614a7b
+2023-11-25 18:19:33.149 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/36aa7165-98bd-4f9e-ba71-310bd41da4d2
+2023-11-25 18:19:33.157 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/61fcd301-fdc6-4187-ac8c-2c271166d095
+2023-11-25 18:19:33.257 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/f48e1801-735c-41f7-807b-d81a88362ff8
+2023-11-25 18:19:33.355 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/50bf0433-04a3-4236-8be9-2206a23697ad
+2023-11-25 18:19:33.470 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/4be8baf7-4016-4e17-a928-e652fe82c6be
+2023-11-25 18:19:33.526 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/cda97693-d9bc-48cd-8a79-61fd57ec1761
+2023-11-25 18:19:33.533 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/1c1e7aed-9e13-4a70-9ff5-498ccfde37b2
+2023-11-25 18:19:33.541 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/9ff97361-8d8b-46be-948f-26121e923d13
+2023-11-25 18:19:33.572 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/41bf521e-4ea9-4d27-b0fa-18f38d380352
+2023-11-25 18:19:33.649 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/773d6d8f-bb41-472f-852f-d2a6a5cfa136
+2023-11-25 18:19:33.703 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/faf90342-aa57-4461-8b71-41add95ce1b2
+2023-11-25 18:19:33.732 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/d5fe58b4-ccfc-477e-af18-b8370514a1c2
+2023-11-25 18:19:33.827 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/c04e3a3f-ec3b-4538-b341-b327b9bc73de
+2023-11-25 18:19:33.853 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/13504e00-cb03-4078-add2-f626f9114b16
+2023-11-25 18:19:33.861 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/0c86005d-4dcf-4330-8621-b3f852e9cdc4
+2023-11-25 18:19:33.891 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/235239d2-6ffe-4595-97e7-5ca46615cee8
+2023-11-25 18:19:33.901 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/12da2d76-501d-4578-ac25-cf18b5ecceb7
+2023-11-25 18:19:33.928 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/5b5010eb-bb7f-4da3-954b-6e5fc532d31a
+2023-11-25 18:19:33.939 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/2b8ba105-4062-4230-a806-d108af50ecae
+2023-11-25 18:19:34.052 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/211b7cb8-a648-498c-a8a9-3137658522c8
+2023-11-25 18:19:34.061 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/0038492c-606b-48fa-894d-443e6fecbdf0
+2023-11-25 18:19:34.075 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/6b08aced-754c-432d-99f7-3377c0405f71
+2023-11-25 18:19:34.241 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/99335d1b-6770-47c6-bf2d-540472cf0ac0
+2023-11-25 18:19:34.273 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/dbd11123-dcb8-4b79-ae74-70640a2069da
+2023-11-25 18:19:34.352 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/b506d90d-ea8d-4704-93cd-f2b44bb98111
+2023-11-25 18:19:34.361 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/333fccc0-c563-45f5-995d-0755de6114f2
+2023-11-25 18:19:34.372 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/e85f0ef0-fa5f-40b4-be2d-e7d063920884
+2023-11-25 18:19:34.379 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/c01c701e-9369-4db5-b24f-4fb3de516809
+2023-11-25 18:19:34.430 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/2dd0dd94-595d-4503-852e-b6ff558d0dcb
+2023-11-25 18:19:34.441 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/66d4acd1-0971-4c94-8358-0f10ec6b442d
+2023-11-25 18:19:34.471 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/95a24ea5-886c-44c2-9bbb-43bb0e379af2
+2023-11-25 18:19:34.629 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/8233d639-af1c-452e-a6e0-0d137551a037
+2023-11-25 18:19:34.635 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/93e11144-ddda-4411-af9d-0cfe6ff79f03
+2023-11-25 18:19:34.704 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/4f85c270-f936-4c14-841e-72f227929423
+2023-11-25 18:19:34.727 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/66c3661e-562c-4c69-bfa3-4325837d8ad8
+2023-11-25 18:19:34.749 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/6e327fb0-5bc6-4e7f-a3d7-ec55bbb6201f
+2023-11-25 18:19:34.765 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/3e15f3d4-2ca2-4d42-adca-c04a960a2fc8
+2023-11-25 18:19:34.781 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/6231dbc2-64b3-4cd8-a250-ea61d09385dc
+2023-11-25 18:19:34.824 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/ce0d7cf6-07cf-4926-8200-418372299e36
+2023-11-25 18:19:34.976 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/fb1973b3-c360-417e-8b3f-9f816c378b24
+2023-11-25 18:19:35.001 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/d2b010d5-a306-4f1e-b1e1-4b4fe4790799
+2023-11-25 18:19:35.075 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/a3f2fe27-4c74-4d2c-8995-347bc3b1670c
+2023-11-25 18:19:35.085 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/5c50639a-432b-47aa-ae6d-66aefbd541ac
+2023-11-25 18:19:35.119 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/29bb3231-b038-4804-a00b-662b2f3dff74
+2023-11-25 18:19:35.130 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/5215fb52-e817-47a0-8dfc-501a5f616ec0
+2023-11-25 18:19:35.138 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/d9b83b2a-03af-4a41-946e-888807a81746
+2023-11-25 18:19:35.207 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/e389d63a-bcf8-4e3c-94dd-cc0dce00f58b
+2023-11-25 18:19:35.297 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/b1d2ca2b-5e0d-41fe-bd9e-21a7da3d7cfa
+2023-11-25 18:19:35.319 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/f509265c-d501-49c2-a286-70b1d6105571
+2023-11-25 18:19:35.332 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/b31f5ea8-d3a3-4d98-8036-94004d792b42
+2023-11-25 18:19:35.438 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/7f0fb905-8bd8-4dbd-ada3-95cdb393fa01
+2023-11-25 18:19:35.474 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/1ffd0bf2-c498-4d4a-b38b-96a5ca2f9a49
+2023-11-25 18:19:35.500 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/6eef7351-2238-4d79-9119-0439befe13c1
+2023-11-25 18:19:35.510 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/2e671e33-80ba-47ea-a9b6-c160591c145c
+2023-11-25 18:19:35.561 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/63db0d97-9eb1-4838-80be-a85be568a1bb
+2023-11-25 18:19:35.584 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/58b914dd-3263-48c0-93ea-c24918348d4b
+2023-11-25 18:19:35.676 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/529a58df-d14f-4d69-8f04-a01e251f7e9a
+2023-11-25 18:19:35.708 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/db4cdbf8-1a15-4a8d-91b3-d938aa2e138c
+2023-11-25 18:19:35.718 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/1a424016-f5bf-46fc-a9dc-7481b0a48c9b
+2023-11-25 18:19:35.761 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/433793c6-bfdb-421a-93c4-d714763e4310
+2023-11-25 18:19:35.781 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/dee6cc2f-05db-4e23-a2ab-44ec4a7029df
+2023-11-25 18:19:35.842 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/5cb40620-d5ab-43e9-ba97-e7a2f8123785
+2023-11-25 18:19:35.855 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/0f4ed32c-7370-47aa-96d7-f27a5d7af3cd
+2023-11-25 18:19:35.903 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/8d33e443-748e-4146-9596-238d4be583be
+2023-11-25 18:19:35.970 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/97c973b6-57cc-4294-9d5b-e036588d33f7
+2023-11-25 18:19:36.068 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/6502e71d-0877-472e-aa5e-ca60f53ecadb
+2023-11-25 18:19:36.128 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/2581785a-e08e-4c3d-89e8-983fb470470c
+2023-11-25 18:19:36.139 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/e214a6f7-c918-438c-b319-48711cc4dbc9
+2023-11-25 18:19:36.178 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/de19008a-33db-440b-94cf-6ee29d63a8bb
+2023-11-25 18:19:36.186 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/b4f4adce-e484-4ebf-b4ee-9b37a7331211
+2023-11-25 18:19:36.261 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/cb7cdfcc-5b70-4b1d-ba06-4f7cd781cfa7
+2023-11-25 18:19:36.338 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/a9dee42d-1925-4ddd-a20c-b4317e9890e3
+2023-11-25 18:19:36.368 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/3414e6dc-3ff2-4da7-a8b6-b13df07ebf88
+2023-11-25 18:19:36.425 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/00191d2e-7db1-470a-9ad9-5ddeddd7be0e
+2023-11-25 18:19:36.480 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/0e055916-e7fd-47cc-9a60-d55ced7eb7a3
+2023-11-25 18:19:36.523 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/dc07f1c3-4f3d-4654-8139-4be632933ad3
+2023-11-25 18:19:36.558 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/35d2c9ce-e3b4-455a-8afd-bb53923bb6a3
+2023-11-25 18:19:36.566 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/efa4b7a5-c8cb-46c5-a499-b742aecf6b4a
+2023-11-25 18:19:36.591 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/c7d5f4c6-4e2e-442c-ae48-538ed6c35c4f
+2023-11-25 18:19:36.640 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/e9e5946f-f2df-4b8b-890e-c1ae1923471e
+2023-11-25 18:19:36.728 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/0b00c2aa-ce42-47cf-b06e-451b1dd52a31
+2023-11-25 18:19:36.782 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/38869f78-03a8-4ce1-b561-f93d8ee6a40c
+2023-11-25 18:19:36.833 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/a3bdde0f-98cc-4653-9a92-1767a041956b
+2023-11-25 18:19:36.889 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/dd2503d7-5595-4a18-965c-6a2db4802b89
+2023-11-25 18:19:36.899 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/b0073b62-dd8c-4908-8201-dfdc091122f8
+2023-11-25 18:19:36.909 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/b848033c-fb9d-41c2-ad8f-330d53d6a4b4
+2023-11-25 18:19:36.934 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/c673813a-f3e6-408e-938e-3009376dc87b
+2023-11-25 18:19:36.968 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/ba3bbb95-aff5-4586-8ef9-363e0c06d380
+2023-11-25 18:19:37.064 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/7bd5fc51-a0de-48a8-95bf-2bd4bcbd2295
+2023-11-25 18:19:37.121 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/c027645d-bd11-4404-8cdb-e654d7f86152
+2023-11-25 18:19:37.129 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/cef3b668-0a07-4fa4-afdf-73bd7a7af5dd
+2023-11-25 18:19:37.213 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/ca7fbab6-40e3-4519-9ffe-81dabbbe3273
+2023-11-25 18:19:37.239 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/51e13c8a-d029-430a-897a-9da9afda6a90
+2023-11-25 18:19:37.259 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/70a8c3c7-00a5-4cdf-8636-0ef65faadb70
+2023-11-25 18:19:37.290 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/0b593a10-5f9b-431c-91a7-e35ad9031d1b
+2023-11-25 18:19:37.299 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/c83e8273-ae53-442f-b549-f44615857e6f
+2023-11-25 18:19:37.317 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/8c87adce-e88e-4b18-9849-0b4b44c26fb3
+2023-11-25 18:19:37.465 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/78c90fdd-bb44-4178-a597-d238fa39316c
+2023-11-25 18:19:37.488 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/e40d614e-0240-44a7-8fd1-f057af3cd151
+2023-11-25 18:19:37.548 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/b9f920e2-27c7-4bba-9a8b-320ab93f9546
+2023-11-25 18:19:37.625 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/7c1a2071-5580-4a23-a8b8-e8ac4521e6f3
+2023-11-25 18:19:37.634 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/2c105acd-bb1d-480f-a0d7-8313c4c5464d
+2023-11-25 18:19:37.647 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/1f00ee42-bb5d-405e-a689-fccff010bf44
+2023-11-25 18:19:37.653 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/7699d2e7-0e3a-44a7-8534-ce077ca437a8
+2023-11-25 18:19:37.664 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/013a598c-1618-4721-8c2a-1e629794ed18
+2023-11-25 18:19:37.693 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/f2a36d31-22cd-4a18-998d-8ec771366bca
+2023-11-25 18:19:37.703 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/efafb07f-a685-43a2-8e34-d5d2637fa766
+2023-11-25 18:19:37.880 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/17cdf410-6e76-4ddc-9468-fbca19f7d00c
+2023-11-25 18:19:37.927 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/14c76435-791c-4ae8-92a0-961be41037b4
+2023-11-25 18:19:38.027 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/8dde0a86-446c-410f-bc97-f78ada6dc156
+2023-11-25 18:19:38.039 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/dc33c4fa-d320-4187-ba19-565b2c71f2e1
+2023-11-25 18:19:38.049 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/d1fded76-1905-4ccf-ac2f-a043076902b4
+2023-11-25 18:19:38.064 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/df4e39e7-ab46-495d-b7a2-cdf7bfb87827
+2023-11-25 18:19:38.260 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/a3018afe-c171-4579-a10a-8c645e056636
+2023-11-25 18:19:38.267 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/a08f07f7-253b-4b36-a0a2-611a8c5925ca
+2023-11-25 18:19:38.275 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/6dd7a657-45a8-4a67-9f8f-ef1c9eae5b37
+2023-11-25 18:19:38.391 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/4db40585-4e2e-44f4-b07b-c67b7cefea72
+2023-11-25 18:19:38.402 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/df72ec38-5922-48c5-92df-22879acd25d2
+2023-11-25 18:19:38.408 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/2a79ea45-4b1c-47c8-bc36-34b0fa8273d2
+2023-11-25 18:19:38.421 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/a1ea4d09-473d-499a-9442-c144dc6e282f
+2023-11-25 18:19:38.437 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/cd535165-8c0d-4763-a7f9-cced279ce723
+2023-11-25 18:19:38.447 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/a3d15d43-efa1-45e9-b8f9-1a7c601fa177
+2023-11-25 18:19:38.581 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/51acdc85-2299-4b47-8809-6b10f666b9cd
+2023-11-25 18:19:38.626 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/ddd72ea0-12b6-457e-9df9-9ce3897db092
+2023-11-25 18:19:38.637 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/d3d3628c-6cf5-4d28-b03c-ab36a5513306
+2023-11-25 18:19:38.669 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/db40cf63-3ce5-4eb5-aef1-0e5f368a2e29
+2023-11-25 18:19:38.744 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/303b4acf-eba5-47fe-af5e-32843e49c9f2
+2023-11-25 18:19:38.773 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/f2014d0f-28fb-483f-8755-27c7a950f8b2
+2023-11-25 18:19:38.797 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/2c079dbd-0705-425d-b3bc-d5d75fa1cde9
+2023-11-25 18:19:38.805 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/1c553d43-3e24-4c19-9435-b65f0dacb55c
+2023-11-25 18:19:38.946 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/20a90dfe-1e51-4e9a-bc4d-c082e6deebf6
+2023-11-25 18:19:38.977 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/b88700cb-4b4b-4fd0-bdf3-9a539b15b0ed
+2023-11-25 18:19:39.001 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/d2b08e80-ad93-4baa-b566-42e3f89fc005
+2023-11-25 18:19:39.009 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/30840cbc-3a79-499a-8b42-09f0ac811a6b
+2023-11-25 18:19:39.073 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/cb3ba191-6f99-4d6a-8d6e-1763cdcdc93f
+2023-11-25 18:19:39.103 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/c833d7ac-1f10-468a-8e4a-fc57d70b3c05
+2023-11-25 18:19:39.136 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/c6fd123a-52db-4ffc-aaa4-850f35deff07
+2023-11-25 18:19:39.170 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/9974bcfe-4ff5-40d3-8a48-7bb78d26ffb8
+2023-11-25 18:19:39.304 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/bf41f275-ce17-4c3c-aa18-616d31cb8560
+2023-11-25 18:19:39.382 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/34c24212-6fa0-41cd-bb52-67cf44fb2970
+2023-11-25 18:19:39.392 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/7a2545bc-902c-4fbe-bad2-0e76349e4eed
+2023-11-25 18:19:39.400 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/5f51e099-e244-46b7-a8e5-8299bc5aa15f
+2023-11-25 18:19:39.434 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/91ad6e0d-9c4e-48bd-85b3-890113e2a83f
+2023-11-25 18:19:39.451 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/222a4655-72af-4790-8151-36c8a158517a
+2023-11-25 18:19:39.475 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/9111f4d1-c636-47de-b58f-417223321901
+2023-11-25 18:19:39.483 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/84d232fb-416c-4f46-823c-91c29e8fbc60
+2023-11-25 18:19:39.537 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/8f30ece6-8bad-4ac3-83e2-0af8a86d2665
+2023-11-25 18:19:39.657 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/a4dce79f-a7b9-41a9-a1ab-69d2c139fa29
+2023-11-25 18:19:39.744 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/d5765372-801b-420e-b79b-70900afeeae6
+2023-11-25 18:19:39.777 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/92c59b66-7365-447b-aa6d-599b7c41e0ab
+2023-11-25 18:19:39.800 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/8e34e80f-5e92-40f8-abd6-c5f23eb8ebc6
+2023-11-25 18:19:39.809 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/157892bc-a7aa-4a87-be72-6be4300526d4
+2023-11-25 18:19:39.816 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/0860d260-37f3-40f7-877c-da3ab6b1f382
+2023-11-25 18:19:39.824 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/924d89e2-1d60-4965-87a6-5963f8a0b19c
+2023-11-25 18:19:39.857 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/ba170008-e98f-4230-9da1-931629206318
+2023-11-25 18:19:39.869 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/8b912433-0681-490f-89fd-c7a49e76c75c
+2023-11-25 18:19:39.892 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/52d374cc-52c0-45fd-80f6-e12eb64472fb
+2023-11-25 18:19:40.021 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/1f074370-0c2b-4c3e-9512-d17409979baa
+2023-11-25 18:19:40.077 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/0d38a3bc-dc0a-4d9f-8477-b89a215d05eb
+2023-11-25 18:19:40.112 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/bea7dd13-faba-4eca-9b63-c127a162f2b7
+2023-11-25 18:19:40.165 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/0486f37f-5132-411b-bfd4-22007e2dc4f2
+2023-11-25 18:19:40.173 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/f67a7077-09a9-49fe-ab49-1b789070bb7d
+2023-11-25 18:19:40.183 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/91ca5f39-95c9-4f05-a572-f9e4a03671ec
+2023-11-25 18:19:40.198 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/efb65e4e-0cdb-4243-acb7-804458c871e5
+2023-11-25 18:19:40.204 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/fdbf55b1-0ce8-45af-b7f3-64bd37a72732
+2023-11-25 18:19:40.241 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/980d67f5-357e-4518-8a64-366bf706c9f3
+2023-11-25 18:19:40.258 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/d996027a-772f-4097-970e-f85fb0e0b516
+2023-11-25 18:19:40.360 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/22eac1ef-b621-40ef-9694-34a8b4f20905
+2023-11-25 18:19:40.425 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/3fe67e18-5f0a-4bd3-8afa-ccea5c906388
+2023-11-25 18:19:40.508 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/8fde5fdc-e5b5-43d8-8ed1-37be762c0aa2
+2023-11-25 18:19:40.518 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/c13e2c34-1409-4d99-8885-284e512ab6bc
+2023-11-25 18:19:40.558 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/7de4a6e7-9257-4aaa-bd50-48c62c668ed8
+2023-11-25 18:19:40.566 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/3be828b0-2c2e-42b5-8703-606450bcaa34
+2023-11-25 18:19:40.584 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/2b492831-d61e-4886-91b7-473746652430
+2023-11-25 18:19:40.615 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/326ae441-739b-4a7d-b95f-e76e9a523970
+2023-11-25 18:19:40.650 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/85db20d4-b399-4b04-9b85-694e24a642e6
+2023-11-25 18:19:40.694 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/0bbd6ea9-c1ad-4910-ac8c-d96f6359b02f
+2023-11-25 18:19:40.783 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/5ae978a2-9ddb-4569-aaf3-9adfa2d5dfee
+2023-11-25 18:19:40.874 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/d4e74b5d-26dd-4944-b6c3-47eb77e4b1ad
+2023-11-25 18:19:40.897 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/7d18701d-7c8a-412c-8161-ff3ae72f8a90
+2023-11-25 18:19:40.905 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/b8506417-7234-4502-be07-f1487846582b
+2023-11-25 18:19:40.919 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/01903449-d83c-4956-a7a9-e0b98a113f77
+2023-11-25 18:19:40.949 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/2554ef52-0ae0-416b-8cb5-1599b614b392
+2023-11-25 18:19:40.973 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/08510d39-9fbe-41f6-b140-f1788490d51f
+2023-11-25 18:19:40.982 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/10a6633b-00a1-4ee4-8cb9-aaa01e53b48c
+2023-11-25 18:19:41.011 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/ec9a29f9-b800-4a2b-a897-3a7e9ab4f82e
+2023-11-25 18:19:41.047 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/c0b25a3f-3851-4fd3-adf4-4b66e832db09
+2023-11-25 18:19:41.142 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/1554aa0f-aa06-45ad-9eac-26462e17b9a0
+2023-11-25 18:19:41.243 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/25f30281-e234-4f14-a436-821ab488096d
+2023-11-25 18:19:41.269 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/80f7932d-7051-49c4-b504-ac9f690f32b1
+2023-11-25 18:19:41.304 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/5564e507-943c-4030-95b2-d358ca134ed0
+2023-11-25 18:19:41.327 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/62a3d8fe-2d21-4a3c-88cc-79b295392cf0
+2023-11-25 18:19:41.359 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/1f85394d-e74e-4007-9514-d7cfa6ff0c37
+2023-11-25 18:19:41.366 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/e1303207-f802-42ae-a6b4-ad32783f9b83
+2023-11-25 18:19:41.526 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/f9bfb841-d7fa-4f8f-a4fa-5addb22c2274
+2023-11-25 18:19:41.626 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/9a7466de-7667-42e4-b3b7-53801c1f5bcf
+2023-11-25 18:19:41.639 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/03436d8c-c745-4b8c-8d51-654193acbcac
+2023-11-25 18:19:41.671 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/b5fda133-fd52-41d1-9115-04cc74edb469
+2023-11-25 18:19:41.679 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/0c9f2e86-38b9-4c6a-abe6-0ab4bad7f1c7
+2023-11-25 18:19:41.743 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/56c2e359-7954-4933-a81a-33863381012a
+2023-11-25 18:19:41.752 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/e81365df-cfef-4c62-8f37-b3fa41bb6a2f
+2023-11-25 18:19:41.853 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/b3d403ef-efc9-4ea4-851a-40e87985ad58
+2023-11-25 18:19:41.998 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/d74c7170-f29e-4ae4-b726-4cb0c9ca643f
+2023-11-25 18:19:42.009 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/a825db19-0c9b-418c-9146-e3b7b905896d
+2023-11-25 18:19:42.016 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/85c794a6-4fc1-486b-8fa7-45679db512c1
+2023-11-25 18:19:42.055 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/d29282ec-168d-47b2-ae9f-ea3280918daf
+2023-11-25 18:19:42.103 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/eff489b6-83ae-4f77-a650-c8b207ba5754
+2023-11-25 18:19:42.103 | WARNING  | src.main:get_job_details:98 - Thread: 6 | Job offer is not available | https://www.dice.com/apply-redirect?eyJjb25maWd1cmVkVXJsIjoiaHR0cHM6Ly9jbGljay5hcHBjYXN0LmlvL3RyYWNrL2g2MWE4YnQ/Y3M9MWFjJmV4Y2g9N3Qmamc9NWp4ayZiaWQ9eHhFTGZhM285VmpFUXZfMDUxMW51UT09Iiwiam9iSWQiOiI3ZDQ1ZjZjOC1kY2Q2LTQxZGQtOWZjMi02NDg1OTkxMjljMzgiLCJqb2JUaXRsZSI6IkNsb3VkIFZpZXcgRW5nYWdlbWVudCBQcm9qZWN0IE1hbmFnZXIgU01FIiwiam9iVHlwZSI6InByb2dyYW1tYXRpYyJ9
+2023-11-25 18:19:42.122 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/7b06b41a-55bb-4f50-98c7-6b6e3aa52819
+2023-11-25 18:19:42.130 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/52911637-617b-4099-9191-a69fbfc930c1
+2023-11-25 18:19:42.193 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/bb61f9f7-741d-4fc2-89ae-73d38f3facea
+2023-11-25 18:19:42.337 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/248576f0-aeda-41fb-a135-4d22e2d7221c
+2023-11-25 18:19:42.378 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/376a95a3-82b1-4f76-b008-cb752e7ab4f1
+2023-11-25 18:19:42.390 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/6f5b04a8-498b-4246-b818-266442e2910a
+2023-11-25 18:19:42.408 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/931dfcd7-a103-40ed-9ba4-397499263fc1
+2023-11-25 18:19:42.483 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/05087ed6-11b2-413f-b78c-e589a6d8f291
+2023-11-25 18:19:42.492 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/19452f48-b7b5-4b16-a8a5-b72f2e785dd8
+2023-11-25 18:19:42.500 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/735615aa-2a25-4f71-aafd-b5c761e2f346
+2023-11-25 18:19:42.529 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/cf90fa61-147a-4b2c-8da4-a7278e2c251d
+2023-11-25 18:19:42.551 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/d96f64e6-67a0-4648-adc0-bbd3f2e64ec0
+2023-11-25 18:19:42.703 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/76572ee9-848d-4d9f-a2ac-cb26b0e96021
+2023-11-25 18:19:42.749 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/553f107e-91fb-4516-8ef1-98e5dab6f554
+2023-11-25 18:19:42.814 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/af04c652-46e1-4a12-b9b8-7dc637fdd066
+2023-11-25 18:19:42.836 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/9329e3a1-e512-4ff0-b7f4-39200a3a1747
+2023-11-25 18:19:42.888 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/b9accdae-0445-49e7-a30e-22fc49fe2e79
+2023-11-25 18:19:42.901 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/614e94fd-e17f-4ab9-95c8-1696297cf8e2
+2023-11-25 18:19:42.918 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/c2b5dff1-3ab0-4dd1-b71f-fc11315dc7f1
+2023-11-25 18:19:42.956 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/fa6a7e10-599d-45d1-b874-1b65c62b4dd3
+2023-11-25 18:19:42.997 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/7111555b-7748-46b4-b132-e1cf624b0039
+2023-11-25 18:19:43.107 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/8f3ca981-1194-4d1f-aa56-9b6592cea26e
+2023-11-25 18:19:43.178 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/8c2ccba9-1e24-47bb-9fa0-68f96e23443e
+2023-11-25 18:19:43.187 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/88ee5a58-1501-4508-bd2a-ac474bfc9808
+2023-11-25 18:19:43.196 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/6406fb83-6625-4ed5-97e3-3bbf9a7a2c4d
+2023-11-25 18:19:43.249 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/e1c07a91-c25e-4f16-bfd7-4199cd9914f7
+2023-11-25 18:19:43.279 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/63ca30c3-bf90-4acc-a807-2fa136bf5cda
+2023-11-25 18:19:43.365 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/6b5346c2-8cd8-482b-bc5f-e462ef2e1067
+2023-11-25 18:19:43.419 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/2b745913-79e5-4d2e-ac55-3168b725415e
+2023-11-25 18:19:43.469 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/545e4f44-5d35-428c-b4cd-5f67b9154bed
+2023-11-25 18:19:43.519 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/b521aac7-cd2e-412f-97cf-6e7eeda783bc
+2023-11-25 18:19:43.527 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/2b0595da-97a2-4cad-8cac-d8f9a8814a5f
+2023-11-25 18:19:43.583 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/8b822907-3815-491f-8b19-cdb831f410bb
+2023-11-25 18:19:43.591 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/3116c93e-b6da-4f9f-9f9c-299aa914dc8a
+2023-11-25 18:19:43.627 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/cdb2642d-452c-4de7-848a-16683b02a1ed
+2023-11-25 18:19:43.680 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/a3c82da8-84e3-4032-bb36-8ec924c8906e
+2023-11-25 18:19:43.717 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/d32677bf-2d85-48f1-9985-44088b20e144
+2023-11-25 18:19:43.780 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/1c655af6-ed96-4677-ad01-ef2eaf14063f
+2023-11-25 18:19:43.884 | INFO     | src.main:get_job_details:170 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/a1eb202c-88c2-475b-b800-aeda63640e88
+2023-11-25 18:19:43.894 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/8bc2651e-9262-4212-9b8e-39a93ece7a5b
+2023-11-25 18:19:43.902 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/71663e0d-8a3d-49bd-905b-e9b0e7533120
+2023-11-25 18:19:43.929 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/7b28b160-110c-490b-b6b0-08ba8e158569
+2023-11-25 18:19:43.965 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/f6d673ef-a544-48d4-932e-254623e381c9
+2023-11-25 18:19:43.974 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/21919ce6-0a05-4820-85f3-e0268254e73f
+2023-11-25 18:19:44.011 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/23f7a224-365b-49a2-8211-e9d9db56f109
+2023-11-25 18:19:44.050 | INFO     | src.main:get_job_details:170 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/36fcb592-7267-4622-92c2-5ece42f8ef00
+2023-11-25 18:19:44.080 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/e58d2a48-55cb-4b5f-b582-2bbd4eaa5fd0
+2023-11-25 18:19:44.255 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/41e8fc9a-cda6-47cd-8d9d-5a32b2f3e623
+2023-11-25 18:19:44.271 | INFO     | src.main:get_job_details:170 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/23b86d70-b751-424b-8f95-17f998304c79
+2023-11-25 18:19:44.278 | INFO     | src.main:get_job_details:170 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/d81bc925-117e-45a1-b03d-a50145b73e1f
+2023-11-25 18:19:44.315 | INFO     | src.main:get_job_details:170 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/83c2146c-a406-4e8b-828d-8e08c380edba
+2023-11-25 18:19:44.354 | INFO     | src.main:get_job_details:170 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/c3bfc2d1-feba-4cbe-9c30-c426bea642a9
+2023-11-25 18:19:44.374 | INFO     | src.main:get_job_details:170 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/383fe84b-b26d-4144-8199-74ed4ff0dfbd
+2023-11-25 18:19:44.420 | INFO     | src.main:get_job_details:170 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/9b2195ce-ae6e-4750-b409-58bb01f72441
+2023-11-25 18:19:44.541 | INFO     | src.main:get_job_details:170 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/540a9d7d-a231-41b5-ba8e-d11e05ff89ca
+2023-11-25 18:19:44.586 | INFO     | src.main:get_job_details:170 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/4328a976-0063-43fa-b449-de5da62253dd
+2023-11-25 18:20:45.346 | SUCCESS  | src.main:start:219 - Parser started..
+2023-11-25 18:20:45.833 | INFO     | src.main:get_all_jobs:69 - Total count of jobs: 4577
+2023-11-25 18:21:07.504 | ERROR    | src.main:start:230 - Failed to get jobs | 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte | Parser stopped..
+2023-11-25 18:21:08.388 | SUCCESS  | src.main:start:218 - Parser started..
+2023-11-25 18:21:09.060 | INFO     | src.main:get_all_jobs:69 - Total count of jobs: 4577
+2023-11-25 18:21:09.061 | INFO     | src.main:get_jobs_details:181 - Thread 1 | Got 0 jobs
+2023-11-25 18:21:09.061 | INFO     | src.main:get_jobs_details:181 - Thread 2 | Got 0 jobs
+2023-11-25 18:21:09.061 | INFO     | src.main:get_jobs_details:181 - Thread 3 | Got 0 jobs
+2023-11-25 18:21:09.061 | INFO     | src.main:get_jobs_details:181 - Thread 4 | Got 0 jobs
+2023-11-25 18:21:09.061 | INFO     | src.main:get_jobs_details:181 - Thread 5 | Got 0 jobs
+2023-11-25 18:21:09.062 | INFO     | src.main:get_jobs_details:181 - Thread 6 | Got 0 jobs
+2023-11-25 18:21:09.062 | INFO     | src.main:get_jobs_details:181 - Thread 7 | Got 0 jobs
+2023-11-25 18:21:09.062 | INFO     | src.main:get_jobs_details:181 - Thread 8 | Got 0 jobs
+2023-11-25 18:21:09.062 | INFO     | src.main:get_jobs_details:181 - Thread 9 | Got 0 jobs
+2023-11-25 18:21:09.062 | INFO     | src.main:get_jobs_details:181 - Thread 10 | Got 0 jobs
+2023-11-25 18:21:09.062 | SUCCESS  | src.main:start:240 - Parser finished.. | Execution time: 0.673095 seconds
+
+
+2023-11-25 18:21:09.062 | INFO     | src.database:insert_jobs_using_threads:32 - Inserting jobs to database..
+2023-11-25 18:21:09.065 | SUCCESS  | src.database:insert_jobs_using_threads:47 - Database execution time: 0.003003 seconds
+2023-11-25 18:22:03.702 | SUCCESS  | src.main:start:222 - Parser started..
+2023-11-25 18:22:04.381 | INFO     | src.main:get_all_jobs:69 - Total count of jobs: 4577
+2023-11-25 18:22:13.150 | SUCCESS  | src.main:start:222 - Parser started..
+2023-11-25 18:22:13.819 | INFO     | src.main:get_all_jobs:69 - Total count of jobs: 4577
+2023-11-25 18:22:27.921 | ERROR    | src.main:start:234 - Failed to get jobs | unhashable type: 'dict' | Parser stopped..
+2023-11-25 18:24:44.528 | SUCCESS  | src.main:start:232 - Parser started..
+2023-11-25 18:24:45.183 | INFO     | src.main:get_all_jobs:69 - Total count of jobs: 4578
+2023-11-25 18:24:56.214 | INFO     | src.main:get_jobs_details:195 - Thread 1 | Got 458 jobs
+2023-11-25 18:24:56.215 | INFO     | src.main:get_jobs_details:195 - Thread 2 | Got 458 jobs
+2023-11-25 18:24:56.215 | INFO     | src.main:get_jobs_details:195 - Thread 3 | Got 458 jobs
+2023-11-25 18:24:56.215 | INFO     | src.main:get_jobs_details:195 - Thread 4 | Got 458 jobs
+2023-11-25 18:24:56.216 | INFO     | src.main:get_jobs_details:195 - Thread 5 | Got 458 jobs
+2023-11-25 18:24:56.216 | INFO     | src.main:get_jobs_details:195 - Thread 6 | Got 458 jobs
+2023-11-25 18:24:56.216 | INFO     | src.main:get_jobs_details:195 - Thread 7 | Got 458 jobs
+2023-11-25 18:24:56.216 | INFO     | src.main:get_jobs_details:195 - Thread 8 | Got 458 jobs
+2023-11-25 18:24:56.217 | INFO     | src.main:get_jobs_details:195 - Thread 9 | Got 457 jobs
+2023-11-25 18:24:56.217 | INFO     | src.main:get_jobs_details:195 - Thread 10 | Got 457 jobs
+2023-11-25 18:24:57.107 | INFO     | src.main:get_job_details:185 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/ffc93b6e-f9b2-45d8-b1b6-b5bbe2d67e91
+2023-11-25 18:24:57.117 | INFO     | src.main:get_job_details:185 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/0589d8ca-cb20-4a83-b1d0-9e91c5e26082
+2023-11-25 18:24:57.231 | INFO     | src.main:get_job_details:185 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/10f2aacc-858d-4f48-bf41-f98adac59bef
+2023-11-25 18:24:57.247 | INFO     | src.main:get_job_details:185 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/19863693-0f56-4032-aa83-2599e556c160
+2023-11-25 18:24:57.255 | INFO     | src.main:get_job_details:185 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/5e13449c-c1cd-4bde-88a5-f5e3780561c1
+2023-11-25 18:24:57.287 | INFO     | src.main:get_job_details:185 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/66cb4c5b-c925-418d-a22f-883ecdc3980d
+2023-11-25 18:24:57.296 | INFO     | src.main:get_job_details:185 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/f8f67e31-0662-4585-8770-88b3150b4f34
+2023-11-25 18:24:57.336 | INFO     | src.main:get_job_details:185 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/f48fda7a-64fa-47d3-b18b-0f97a0e0d99b
+2023-11-25 18:24:57.336 | WARNING  | src.main:get_job_details:113 - Thread: 4 | Job offer is not available | https://www.dice.com/apply-redirect?eyJjb25maWd1cmVkVXJsIjoiaHR0cHM6Ly9hc2FlLnRoZWpvYm5ldHdvcmsuY29tL0pvYi81ODIzOTM3MzE/ZXRkPU1VVlA2Q1hRMjJJTjVQNVRUQ1A0QktHUEZUT0dHVkZTNVZLVVlXRU5ISUlWWUZCRDZZQklCSUpTNDdKT0lXTTNBNk9ISlBHUkpQUDNITjJBTklBS01UR0xYQ04zVDRJSkdNUUg3TTVQVldVWUVVSkpVWjZZUFMyNUVVU0dWTEZFWVc0U0wyRVBUUEFSVyUzZCUzZCUzZCIsImpvYklkIjoiZGFjOTZhZGQtNzQzNS00ZTM3LTlhZTAtODM1MDk5M2IyNDJkIiwiam9iVGl0bGUiOiJTcGVjaWFsaXN0LCBOZXR3b3JrIGFuZCBEZXNrdG9wIFN1cHBvcnQiLCJqb2JUeXBlIjoicHJvZ3JhbW1hdGljIn0=
+2023-11-25 18:24:57.368 | INFO     | src.main:get_job_details:185 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/4ee16be8-c3dd-4e33-8c35-63b1187b32fb
+2023-11-25 18:24:57.380 | INFO     | src.main:get_job_details:185 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/a5778a8d-6775-4135-9334-bfc83ff4c1c8
+2023-11-25 18:24:57.500 | INFO     | src.main:get_job_details:185 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/e4e4773d-98f5-4983-80d1-9b0fb319126a
+2023-11-25 18:24:57.645 | INFO     | src.main:get_job_details:185 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/b84518e7-9009-4446-b0cf-36d0de01c5b7
+2023-11-25 18:24:57.653 | INFO     | src.main:get_job_details:185 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/244102b2-3c61-400f-98d0-47dd1636c1c5
+2023-11-25 18:24:57.673 | INFO     | src.main:get_job_details:185 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/cda97693-d9bc-48cd-8a79-61fd57ec1761
+2023-11-25 18:24:57.681 | INFO     | src.main:get_job_details:185 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/50c54d23-7e84-4d60-a524-660bd302d657
+2023-11-25 18:24:57.688 | INFO     | src.main:get_job_details:185 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/69384fac-e09e-455f-95b7-735cf4666830
+2023-11-25 18:24:57.709 | INFO     | src.main:get_job_details:185 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/8698427e-a0f4-4227-8a96-613883e92d3e
+2023-11-25 18:24:57.738 | INFO     | src.main:get_job_details:185 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/f2d35bbe-19f7-41cd-b7a8-41624457f510
+2023-11-25 18:24:57.749 | INFO     | src.main:get_job_details:185 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/ed52acd8-6ee6-4670-83a9-404098acd36b
+2023-11-25 18:24:57.873 | INFO     | src.main:get_job_details:185 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/9747fb46-fe7c-4d6d-9eec-e576e503ad6b
+2023-11-25 18:24:58.020 | INFO     | src.main:get_job_details:185 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/744268d1-038b-415a-955f-38e6cfca9621
+2023-11-25 18:24:58.051 | INFO     | src.main:get_job_details:185 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/e8e8eb5b-43c1-4f61-9450-8d0c5e9aecf7
+2023-11-25 18:24:58.061 | INFO     | src.main:get_job_details:185 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/d1cfc6d9-d96d-4df7-9c83-efc8715b10ba
+2023-11-25 18:24:58.071 | INFO     | src.main:get_job_details:185 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/f1f0c634-499c-4bb6-bc72-35bdc74dc232
+2023-11-25 18:24:58.083 | INFO     | src.main:get_job_details:185 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/c68921cc-6864-4371-910a-a4c6aa1e52da
+2023-11-25 18:24:58.094 | INFO     | src.main:get_job_details:185 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/c82f01ea-b86f-493f-82b5-3e89987c66f9
+2023-11-25 18:24:58.102 | INFO     | src.main:get_job_details:185 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/5c50f5e4-0e7e-4a9e-9072-8f949d5cc7d0
+2023-11-25 18:24:58.137 | INFO     | src.main:get_job_details:185 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/26f7368c-7d2e-4f3a-bfa7-1807d60615a3
+2023-11-25 18:24:58.229 | INFO     | src.main:get_job_details:185 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/cb7cdfcc-5b70-4b1d-ba06-4f7cd781cfa7
+2023-11-25 18:24:58.350 | INFO     | src.main:get_job_details:185 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/69b67481-143d-4a65-902f-e82eb15af6c5
+2023-11-25 18:24:58.398 | INFO     | src.main:get_job_details:185 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/27dabfad-f459-476c-8db0-95dea1ebb7b2
+2023-11-25 18:24:58.422 | INFO     | src.main:get_job_details:185 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/0421c463-7814-4651-89ac-14217e62ae4f
+2023-11-25 18:24:58.451 | INFO     | src.main:get_job_details:185 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/9e1d36f8-8437-4d85-b779-f453d734b652
+2023-11-25 18:24:58.473 | INFO     | src.main:get_job_details:185 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/d2be585c-4ac5-4b9c-b461-eaeafcc93dd1
+2023-11-25 18:24:58.482 | INFO     | src.main:get_job_details:185 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/773d6d8f-bb41-472f-852f-d2a6a5cfa136
+2023-11-25 18:24:58.501 | INFO     | src.main:get_job_details:185 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/0de1412f-8726-479b-9477-b57bae538f86
+2023-11-25 18:24:58.572 | INFO     | src.main:get_job_details:185 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/f516b46d-2b6e-4f08-bab5-d4d1583798e0
+2023-11-25 18:24:58.614 | INFO     | src.main:get_job_details:185 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/1886c6ad-54e0-448b-bfec-54d612550c18
+2023-11-25 18:24:58.782 | INFO     | src.main:get_job_details:185 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/c3acd364-a4d3-4f6c-80e8-91f5fe92008f
+2023-11-25 18:24:58.791 | INFO     | src.main:get_job_details:185 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/092527d0-1113-4ca2-8d83-0851fca7b1bf
+2023-11-25 18:24:58.829 | INFO     | src.main:get_job_details:185 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/e0e9cad4-9e03-4580-b86c-54f0a8075770
+2023-11-25 18:24:58.839 | INFO     | src.main:get_job_details:185 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/31c18cc3-8d6c-4443-99ff-54781c4fc6df
+2023-11-25 18:24:58.847 | INFO     | src.main:get_job_details:185 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/d70864ed-0e2b-41b0-ba28-0010bc1affc4
+2023-11-25 18:24:58.861 | INFO     | src.main:get_job_details:185 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/ef0ce127-7366-4a5a-b2e0-6b2c05a918b2
+2023-11-25 18:24:58.871 | INFO     | src.main:get_job_details:185 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/88cce735-46ed-430d-9439-88f1dd9b212c
+2023-11-25 18:24:58.943 | INFO     | src.main:get_job_details:185 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/f935d4d2-62d8-472b-9523-06744a3643f6
+2023-11-25 18:24:59.010 | INFO     | src.main:get_job_details:185 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/ce0d7cf6-07cf-4926-8200-418372299e36
+2023-11-25 18:24:59.063 | INFO     | src.main:get_job_details:185 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/b506d90d-ea8d-4704-93cd-f2b44bb98111
+2023-11-25 18:24:59.118 | INFO     | src.main:get_job_details:185 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/c0f2ae6f-d2f1-42a0-a172-cc176d8328bd
+2023-11-25 18:24:59.137 | INFO     | src.main:get_job_details:185 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/d292299b-7eae-49e7-8b90-056f84cb8cc3
+2023-11-25 18:24:59.189 | INFO     | src.main:get_job_details:185 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/682359e1-2ae9-44ee-9559-ba3ab9456375
+2023-11-25 18:24:59.240 | INFO     | src.main:get_job_details:185 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/a271a172-6124-4413-9b8e-23c9e78803fe
+2023-11-25 18:24:59.259 | INFO     | src.main:get_job_details:185 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/f7cffd10-6376-48c7-83f9-f968e2ef60c4
+2023-11-25 18:24:59.270 | INFO     | src.main:get_job_details:185 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/d20e768d-bbf5-45b4-a601-80b95aeaa676
+2023-11-25 18:24:59.327 | INFO     | src.main:get_job_details:185 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/0cb94001-abe3-4831-b41e-e1f53b1a2156
+2023-11-25 18:24:59.355 | INFO     | src.main:get_job_details:185 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/c27c7c22-491d-499a-8335-7c358a603398
+2023-11-25 18:24:59.400 | INFO     | src.main:get_job_details:185 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/947be325-3fa1-424a-bde2-71f00cb02cf2
+2023-11-25 18:24:59.453 | INFO     | src.main:get_job_details:185 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/1cdd16e9-6a8c-4988-99fb-dab38d39e604
+2023-11-25 18:24:59.472 | INFO     | src.main:get_job_details:185 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/a76d6078-7207-48b2-83d8-77d2b239a05f
+2023-11-25 18:24:59.531 | INFO     | src.main:get_job_details:185 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/5c62b696-770f-48f9-a2d9-37b3a731d371
+2023-11-25 18:24:59.543 | INFO     | src.main:get_job_details:185 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/6231dbc2-64b3-4cd8-a250-ea61d09385dc
+2023-11-25 18:24:59.655 | INFO     | src.main:get_job_details:185 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/2c07b3d3-dad0-47a2-b3c3-04181531e29c
+2023-11-25 18:24:59.665 | INFO     | src.main:get_job_details:185 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/faebecb9-cfb8-486a-bd30-861449964ec4
+2023-11-25 18:24:59.672 | INFO     | src.main:get_job_details:185 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/0ffcbaa2-d5e5-47db-9c85-43fc056f75bf
+2023-11-25 18:24:59.707 | INFO     | src.main:get_job_details:185 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/60647db4-84a4-46a8-be33-12a74152aa49
+2023-11-25 18:24:59.719 | INFO     | src.main:get_job_details:185 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/27597e7f-bbb2-4bac-a410-cc103be8238a
+2023-11-25 18:24:59.744 | INFO     | src.main:get_job_details:185 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/17d2b961-bc42-4dc3-8e30-a7cd84a2c9c3
+2023-11-25 18:24:59.837 | INFO     | src.main:get_job_details:185 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/6639d2a5-62b3-461d-9fe4-3b6e824a77f9
+2023-11-25 18:24:59.846 | INFO     | src.main:get_job_details:185 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/13504e00-cb03-4078-add2-f626f9114b16
+2023-11-25 18:24:59.854 | INFO     | src.main:get_job_details:185 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/0c86005d-4dcf-4330-8621-b3f852e9cdc4
+2023-11-25 18:24:59.924 | INFO     | src.main:get_job_details:185 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/6b9c54c7-689a-4473-9a8e-0467510e084f
+2023-11-25 18:25:00.054 | INFO     | src.main:get_job_details:185 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/6b2400f0-fd0e-46c7-aeb5-b549d5614a7b
+2023-11-25 18:25:00.084 | INFO     | src.main:get_job_details:185 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/a718f1fa-3202-4592-a545-93be2e56aaaa
+2023-11-25 18:25:00.094 | INFO     | src.main:get_job_details:185 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/9d4796e5-f777-4153-8531-d41f62413430
+2023-11-25 18:25:00.158 | INFO     | src.main:get_job_details:185 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/53ad801d-cdb1-4854-a483-d059f28d6341
+2023-11-25 18:25:00.165 | INFO     | src.main:get_job_details:185 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/41908f4e-2918-4f23-9c72-28c7fdb4cd07
+2023-11-25 18:25:00.172 | INFO     | src.main:get_job_details:185 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/4e49f60b-4d5d-40a9-bc7b-e7a0d9f3e3e1
+2023-11-25 18:25:00.226 | INFO     | src.main:get_job_details:185 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/b848033c-fb9d-41c2-ad8f-330d53d6a4b4
+2023-11-25 18:25:00.246 | INFO     | src.main:get_job_details:185 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/c01c701e-9369-4db5-b24f-4fb3de516809
+2023-11-25 18:25:00.257 | INFO     | src.main:get_job_details:185 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/dbd11123-dcb8-4b79-ae74-70640a2069da
+2023-11-25 18:25:00.288 | INFO     | src.main:get_job_details:185 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/a27c1e9c-5a12-4760-b43a-e8a66a7859e4
+2023-11-25 18:25:00.401 | INFO     | src.main:get_job_details:185 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/1c1e7aed-9e13-4a70-9ff5-498ccfde37b2
+2023-11-25 18:25:00.461 | INFO     | src.main:get_job_details:185 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/9e2cec0e-8692-4b00-9f9a-4b5e59ffd2e4
+2023-11-25 18:25:00.527 | INFO     | src.main:get_job_details:185 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/d9b12351-f98c-459c-af0c-d56b034cefa4
+2023-11-25 18:25:00.536 | INFO     | src.main:get_job_details:185 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/080d8303-b491-44dd-89d3-308726c7b052
+2023-11-25 18:25:00.543 | INFO     | src.main:get_job_details:185 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/41bf521e-4ea9-4d27-b0fa-18f38d380352
+2023-11-25 18:25:00.562 | INFO     | src.main:get_job_details:185 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/345b34f1-8507-400c-a1ee-28ea8c6eb56f
+2023-11-25 18:25:00.585 | INFO     | src.main:get_job_details:185 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/88a76621-2ec3-4be6-9751-785a04d1a174
+2023-11-25 18:25:00.620 | INFO     | src.main:get_job_details:185 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/d9b83b2a-03af-4a41-946e-888807a81746
+2023-11-25 18:25:00.665 | INFO     | src.main:get_job_details:185 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/93e11144-ddda-4411-af9d-0cfe6ff79f03
+2023-11-25 18:25:00.706 | INFO     | src.main:get_job_details:185 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/b1d2ca2b-5e0d-41fe-bd9e-21a7da3d7cfa
+2023-11-25 18:25:00.815 | INFO     | src.main:get_job_details:185 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/38105d7c-9dbe-479f-9509-ff1e74459d5b
+2023-11-25 18:25:00.824 | INFO     | src.main:get_job_details:185 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/12da2d76-501d-4578-ac25-cf18b5ecceb7
+2023-11-25 18:25:00.920 | INFO     | src.main:get_job_details:185 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/4be8baf7-4016-4e17-a928-e652fe82c6be
+2023-11-25 18:25:00.930 | INFO     | src.main:get_job_details:185 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/6cf4c9a5-0135-4ac7-8f05-419fec7a5953
+2023-11-25 18:25:00.945 | INFO     | src.main:get_job_details:185 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/6eef7351-2238-4d79-9119-0439befe13c1
+2023-11-25 18:25:00.983 | INFO     | src.main:get_job_details:185 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/3725899d-d0f2-49a5-8ac5-fb718d4c576f
+2023-11-25 18:25:01.001 | INFO     | src.main:get_job_details:185 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/5b5010eb-bb7f-4da3-954b-6e5fc532d31a
+2023-11-25 18:25:01.011 | INFO     | src.main:get_job_details:185 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/d2b010d5-a306-4f1e-b1e1-4b4fe4790799
+2023-11-25 18:25:01.027 | INFO     | src.main:get_job_details:185 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/29cc9f70-6ade-4eee-b562-c2f9837db931
+2023-11-25 18:25:01.114 | INFO     | src.main:get_job_details:185 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/6502e71d-0877-472e-aa5e-ca60f53ecadb
+2023-11-25 18:25:01.178 | INFO     | src.main:get_job_details:185 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/2dd0dd94-595d-4503-852e-b6ff558d0dcb
+2023-11-25 18:25:01.229 | INFO     | src.main:get_job_details:185 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/4f85c270-f936-4c14-841e-72f227929423
+2023-11-25 18:25:01.271 | INFO     | src.main:get_job_details:185 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/cd535165-8c0d-4763-a7f9-cced279ce723
+2023-11-25 18:25:01.283 | INFO     | src.main:get_job_details:185 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/a9dee42d-1925-4ddd-a20c-b4317e9890e3
+2023-11-25 18:25:01.322 | INFO     | src.main:get_job_details:185 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/c04e3a3f-ec3b-4538-b341-b327b9bc73de
+2023-11-25 18:25:01.371 | INFO     | src.main:get_job_details:185 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/8c87adce-e88e-4b18-9849-0b4b44c26fb3
+2023-11-25 18:25:01.381 | INFO     | src.main:get_job_details:185 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/e85f0ef0-fa5f-40b4-be2d-e7d063920884
+2023-11-25 18:25:01.404 | INFO     | src.main:get_job_details:185 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/433793c6-bfdb-421a-93c4-d714763e4310
+2023-11-25 18:25:01.427 | INFO     | src.main:get_job_details:185 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/36aa7165-98bd-4f9e-ba71-310bd41da4d2
+2023-11-25 18:25:01.460 | INFO     | src.main:get_job_details:185 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/a3bdde0f-98cc-4653-9a92-1767a041956b
+2023-11-25 18:25:01.563 | INFO     | src.main:get_job_details:185 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/0038492c-606b-48fa-894d-443e6fecbdf0
+2023-11-25 18:25:01.616 | INFO     | src.main:get_job_details:185 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/29bb3231-b038-4804-a00b-662b2f3dff74
+2023-11-25 18:25:01.633 | INFO     | src.main:get_job_details:185 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/ba3bbb95-aff5-4586-8ef9-363e0c06d380
+2023-11-25 18:25:01.685 | INFO     | src.main:get_job_details:185 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/99335d1b-6770-47c6-bf2d-540472cf0ac0
+2023-11-25 18:25:01.719 | INFO     | src.main:get_job_details:185 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/7bd5fc51-a0de-48a8-95bf-2bd4bcbd2295
+2023-11-25 18:25:01.737 | INFO     | src.main:get_job_details:185 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/6e327fb0-5bc6-4e7f-a3d7-ec55bbb6201f
+2023-11-25 18:25:01.789 | INFO     | src.main:get_job_details:185 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/9ff97361-8d8b-46be-948f-26121e923d13
+2023-11-25 18:25:01.803 | INFO     | src.main:get_job_details:185 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/ca7fbab6-40e3-4519-9ffe-81dabbbe3273
+2023-11-25 18:25:01.818 | INFO     | src.main:get_job_details:185 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/2581785a-e08e-4c3d-89e8-983fb470470c
+2023-11-25 18:25:01.970 | INFO     | src.main:get_job_details:185 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/2e671e33-80ba-47ea-a9b6-c160591c145c
+2023-11-25 18:25:01.978 | INFO     | src.main:get_job_details:185 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/83c2146c-a406-4e8b-828d-8e08c380edba
+2023-11-25 18:25:02.010 | INFO     | src.main:get_job_details:185 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/f2a36d31-22cd-4a18-998d-8ec771366bca
+2023-11-25 18:25:02.058 | INFO     | src.main:get_job_details:185 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/8233d639-af1c-452e-a6e0-0d137551a037
+2023-11-25 18:25:02.093 | INFO     | src.main:get_job_details:185 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/5c50639a-432b-47aa-ae6d-66aefbd541ac
+2023-11-25 18:25:02.104 | INFO     | src.main:get_job_details:185 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/7699d2e7-0e3a-44a7-8534-ce077ca437a8
+2023-11-25 18:25:02.143 | INFO     | src.main:get_job_details:185 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/6dd7a657-45a8-4a67-9f8f-ef1c9eae5b37
+2023-11-25 18:25:02.197 | INFO     | src.main:get_job_details:185 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/19452f48-b7b5-4b16-a8a5-b72f2e785dd8
+2023-11-25 18:25:02.210 | INFO     | src.main:get_job_details:185 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/f48e1801-735c-41f7-807b-d81a88362ff8
+2023-11-25 18:25:02.216 | INFO     | src.main:get_job_details:185 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/dd2503d7-5595-4a18-965c-6a2db4802b89
+2023-11-25 18:25:02.304 | INFO     | src.main:get_job_details:185 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/0f4ed32c-7370-47aa-96d7-f27a5d7af3cd
+2023-11-25 18:25:02.377 | INFO     | src.main:get_job_details:185 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/46f775e8-afb4-44e4-9f34-3cb3792b4fbd
+2023-11-25 18:25:02.417 | INFO     | src.main:get_job_details:185 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/0b00c2aa-ce42-47cf-b06e-451b1dd52a31
+2023-11-25 18:25:02.435 | INFO     | src.main:get_job_details:185 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/fb1973b3-c360-417e-8b3f-9f816c378b24
+2023-11-25 18:25:02.457 | INFO     | src.main:get_job_details:185 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/7f0fb905-8bd8-4dbd-ada3-95cdb393fa01
+2023-11-25 18:25:02.508 | INFO     | src.main:get_job_details:185 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/235239d2-6ffe-4595-97e7-5ca46615cee8
+2023-11-25 18:25:02.524 | INFO     | src.main:get_job_details:185 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/a1ea4d09-473d-499a-9442-c144dc6e282f
+2023-11-25 18:25:02.554 | INFO     | src.main:get_job_details:185 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/2b7d513d-664d-4ee0-8757-bcf57245fbec
+2023-11-25 18:25:02.575 | INFO     | src.main:get_job_details:185 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/211b7cb8-a648-498c-a8a9-3137658522c8
+2023-11-25 18:25:02.595 | INFO     | src.main:get_job_details:185 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/51e13c8a-d029-430a-897a-9da9afda6a90
+2023-11-25 18:25:02.690 | INFO     | src.main:get_job_details:185 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/c7d5f4c6-4e2e-442c-ae48-538ed6c35c4f
+2023-11-25 18:25:02.741 | INFO     | src.main:get_job_details:185 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/50bf0433-04a3-4236-8be9-2206a23697ad
+2023-11-25 18:25:02.798 | INFO     | src.main:get_job_details:185 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/3e15f3d4-2ca2-4d42-adca-c04a960a2fc8
+2023-11-25 18:25:02.839 | INFO     | src.main:get_job_details:185 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/b31f5ea8-d3a3-4d98-8036-94004d792b42
+2023-11-25 18:25:02.853 | INFO     | src.main:get_job_details:185 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/f509265c-d501-49c2-a286-70b1d6105571
+2023-11-25 18:25:02.907 | INFO     | src.main:get_job_details:185 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/efafb07f-a685-43a2-8e34-d5d2637fa766
+2023-11-25 18:25:02.932 | INFO     | src.main:get_job_details:185 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/2c079dbd-0705-425d-b3bc-d5d75fa1cde9
+2023-11-25 18:25:02.941 | INFO     | src.main:get_job_details:185 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/dee6cc2f-05db-4e23-a2ab-44ec4a7029df
+2023-11-25 18:25:02.962 | INFO     | src.main:get_job_details:185 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/2c105acd-bb1d-480f-a0d7-8313c4c5464d
+2023-11-25 18:25:02.971 | INFO     | src.main:get_job_details:185 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/66d4acd1-0971-4c94-8358-0f10ec6b442d
+2023-11-25 18:25:03.124 | INFO     | src.main:get_job_details:185 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/0b593a10-5f9b-431c-91a7-e35ad9031d1b
+2023-11-25 18:25:03.135 | INFO     | src.main:get_job_details:185 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/6b08aced-754c-432d-99f7-3377c0405f71
+2023-11-25 18:25:03.193 | INFO     | src.main:get_job_details:185 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/6627c006-9e6c-43bb-9808-ea98f27b93f0
+2023-11-25 18:25:03.202 | INFO     | src.main:get_job_details:185 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/db4cdbf8-1a15-4a8d-91b3-d938aa2e138c
+2023-11-25 18:25:03.253 | INFO     | src.main:get_job_details:185 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/333fccc0-c563-45f5-995d-0755de6114f2
+2023-11-25 18:25:03.264 | INFO     | src.main:get_job_details:185 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/963f7c3e-e8fc-420b-b438-c81be06794c7
+2023-11-25 18:25:03.293 | INFO     | src.main:get_job_details:185 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/c6fd123a-52db-4ffc-aaa4-850f35deff07
+2023-11-25 18:25:03.302 | INFO     | src.main:get_job_details:185 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/b4f4adce-e484-4ebf-b4ee-9b37a7331211
+2023-11-25 18:25:03.394 | INFO     | src.main:get_job_details:185 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/a08f07f7-253b-4b36-a0a2-611a8c5925ca
+2023-11-25 18:25:03.402 | INFO     | src.main:get_job_details:185 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/dc33c4fa-d320-4187-ba19-565b2c71f2e1
+2023-11-25 18:25:03.479 | INFO     | src.main:get_job_details:185 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/1f00ee42-bb5d-405e-a689-fccff010bf44
+2023-11-25 18:25:03.532 | INFO     | src.main:get_job_details:185 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/96998168-64b3-4eff-927f-7aebae34a8ee
+2023-11-25 18:25:03.573 | INFO     | src.main:get_job_details:185 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/21919ce6-0a05-4820-85f3-e0268254e73f
+2023-11-25 18:25:03.586 | INFO     | src.main:get_job_details:185 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/e214a6f7-c918-438c-b319-48711cc4dbc9
+2023-11-25 18:25:03.621 | INFO     | src.main:get_job_details:185 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/529a58df-d14f-4d69-8f04-a01e251f7e9a
+2023-11-25 18:25:03.630 | INFO     | src.main:get_job_details:185 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/61fcd301-fdc6-4187-ac8c-2c271166d095
+2023-11-25 18:25:03.643 | INFO     | src.main:get_job_details:185 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/35d2c9ce-e3b4-455a-8afd-bb53923bb6a3
+2023-11-25 18:25:03.717 | INFO     | src.main:get_job_details:185 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/84d232fb-416c-4f46-823c-91c29e8fbc60
+2023-11-25 18:25:03.750 | INFO     | src.main:get_job_details:185 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/2a79ea45-4b1c-47c8-bc36-34b0fa8273d2
+2023-11-25 18:25:03.772 | INFO     | src.main:get_job_details:185 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/1a424016-f5bf-46fc-a9dc-7481b0a48c9b
+2023-11-25 18:25:03.822 | INFO     | src.main:get_job_details:185 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/8dde0a86-446c-410f-bc97-f78ada6dc156
+2023-11-25 18:25:03.881 | INFO     | src.main:get_job_details:185 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/bf41f275-ce17-4c3c-aa18-616d31cb8560
+2023-11-25 18:25:03.944 | INFO     | src.main:get_job_details:185 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/dc07f1c3-4f3d-4654-8139-4be632933ad3
+2023-11-25 18:25:03.954 | INFO     | src.main:get_job_details:185 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/6406fb83-6625-4ed5-97e3-3bbf9a7a2c4d
+2023-11-25 18:25:03.975 | INFO     | src.main:get_job_details:185 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/c673813a-f3e6-408e-938e-3009376dc87b
+2023-11-25 18:25:03.982 | INFO     | src.main:get_job_details:185 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/78c90fdd-bb44-4178-a597-d238fa39316c
+2023-11-25 18:25:03.990 | INFO     | src.main:get_job_details:185 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/1c553d43-3e24-4c19-9435-b65f0dacb55c
+2023-11-25 18:25:04.121 | INFO     | src.main:get_job_details:185 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/303b4acf-eba5-47fe-af5e-32843e49c9f2
+2023-11-25 18:25:04.135 | INFO     | src.main:get_job_details:185 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/b9f920e2-27c7-4bba-9a8b-320ab93f9546
+2023-11-25 18:25:04.146 | INFO     | src.main:get_job_details:185 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/8b912433-0681-490f-89fd-c7a49e76c75c
+2023-11-25 18:25:04.231 | INFO     | src.main:get_job_details:185 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/e389d63a-bcf8-4e3c-94dd-cc0dce00f58b
+2023-11-25 18:25:04.285 | INFO     | src.main:get_job_details:185 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/b0073b62-dd8c-4908-8201-dfdc091122f8
+2023-11-25 18:25:04.356 | INFO     | src.main:get_job_details:185 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/553f107e-91fb-4516-8ef1-98e5dab6f554
+2023-11-25 18:25:04.365 | INFO     | src.main:get_job_details:185 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/70a8c3c7-00a5-4cdf-8636-0ef65faadb70
+2023-11-25 18:25:04.383 | INFO     | src.main:get_job_details:185 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/00191d2e-7db1-470a-9ad9-5ddeddd7be0e
+2023-11-25 18:25:04.396 | INFO     | src.main:get_job_details:185 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/52911637-617b-4099-9191-a69fbfc930c1
+2023-11-25 18:25:04.448 | INFO     | src.main:get_job_details:185 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/91ad6e0d-9c4e-48bd-85b3-890113e2a83f
+2023-11-25 18:25:04.484 | INFO     | src.main:get_job_details:185 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/b88700cb-4b4b-4fd0-bdf3-9a539b15b0ed
+2023-11-25 18:25:04.545 | INFO     | src.main:get_job_details:185 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/980d67f5-357e-4518-8a64-366bf706c9f3
+2023-11-25 18:25:04.597 | INFO     | src.main:get_job_details:185 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/8d33e443-748e-4146-9596-238d4be583be
+2023-11-25 18:25:04.667 | INFO     | src.main:get_job_details:185 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/c83e8273-ae53-442f-b549-f44615857e6f
+2023-11-25 18:25:04.737 | INFO     | src.main:get_job_details:185 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/38869f78-03a8-4ce1-b561-f93d8ee6a40c
+2023-11-25 18:25:04.751 | INFO     | src.main:get_job_details:185 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/7c1a2071-5580-4a23-a8b8-e8ac4521e6f3
+2023-11-25 18:25:04.760 | INFO     | src.main:get_job_details:185 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/c027645d-bd11-4404-8cdb-e654d7f86152
+2023-11-25 18:25:04.782 | INFO     | src.main:get_job_details:185 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/df4e39e7-ab46-495d-b7a2-cdf7bfb87827
+2023-11-25 18:25:04.791 | INFO     | src.main:get_job_details:185 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/157892bc-a7aa-4a87-be72-6be4300526d4
+2023-11-25 18:25:04.860 | INFO     | src.main:get_job_details:185 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/df72ec38-5922-48c5-92df-22879acd25d2
+2023-11-25 18:25:04.870 | INFO     | src.main:get_job_details:185 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/92c59b66-7365-447b-aa6d-599b7c41e0ab
+2023-11-25 18:25:04.971 | INFO     | src.main:get_job_details:185 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/b3d403ef-efc9-4ea4-851a-40e87985ad58
+2023-11-25 18:25:05.002 | INFO     | src.main:get_job_details:185 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/2b492831-d61e-4886-91b7-473746652430
+2023-11-25 18:25:05.063 | INFO     | src.main:get_job_details:185 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/013a598c-1618-4721-8c2a-1e629794ed18
+2023-11-25 18:25:05.084 | INFO     | src.main:get_job_details:185 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/db40cf63-3ce5-4eb5-aef1-0e5f368a2e29
+2023-11-25 18:25:05.109 | INFO     | src.main:get_job_details:185 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/4db40585-4e2e-44f4-b07b-c67b7cefea72
+2023-11-25 18:25:05.166 | INFO     | src.main:get_job_details:185 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/f67a7077-09a9-49fe-ab49-1b789070bb7d
+2023-11-25 18:25:05.225 | INFO     | src.main:get_job_details:185 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/d2b08e80-ad93-4baa-b566-42e3f89fc005
+2023-11-25 18:25:05.236 | INFO     | src.main:get_job_details:185 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/30840cbc-3a79-499a-8b42-09f0ac811a6b
+2023-11-25 18:25:05.262 | INFO     | src.main:get_job_details:185 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/14c76435-791c-4ae8-92a0-961be41037b4
+2023-11-25 18:25:05.290 | INFO     | src.main:get_job_details:185 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/2b8ba105-4062-4230-a806-d108af50ecae
+2023-11-25 18:25:05.339 | INFO     | src.main:get_job_details:185 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/2554ef52-0ae0-416b-8cb5-1599b614b392
+2023-11-25 18:25:05.369 | INFO     | src.main:get_job_details:185 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/e9e5946f-f2df-4b8b-890e-c1ae1923471e
+2023-11-25 18:25:05.415 | INFO     | src.main:get_job_details:185 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/d1fded76-1905-4ccf-ac2f-a043076902b4
+2023-11-25 18:25:05.461 | INFO     | src.main:get_job_details:185 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/cef3b668-0a07-4fa4-afdf-73bd7a7af5dd
+2023-11-25 18:25:05.542 | INFO     | src.main:get_job_details:185 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/f2014d0f-28fb-483f-8755-27c7a950f8b2
+2023-11-25 18:25:05.550 | INFO     | src.main:get_job_details:185 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/3be828b0-2c2e-42b5-8703-606450bcaa34
+2023-11-25 18:25:05.581 | INFO     | src.main:get_job_details:185 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/d5765372-801b-420e-b79b-70900afeeae6
+2023-11-25 18:25:05.599 | INFO     | src.main:get_job_details:185 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/e40d614e-0240-44a7-8fd1-f057af3cd151
+2023-11-25 18:25:05.615 | INFO     | src.main:get_job_details:185 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/de19008a-33db-440b-94cf-6ee29d63a8bb
+2023-11-25 18:25:05.633 | INFO     | src.main:get_job_details:185 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/5f51e099-e244-46b7-a8e5-8299bc5aa15f
+2023-11-25 18:25:05.692 | INFO     | src.main:get_job_details:185 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/0c9f2e86-38b9-4c6a-abe6-0ab4bad7f1c7
+2023-11-25 18:25:05.789 | INFO     | src.main:get_job_details:185 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/51acdc85-2299-4b47-8809-6b10f666b9cd
+2023-11-25 18:25:05.823 | INFO     | src.main:get_job_details:185 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/cb3ba191-6f99-4d6a-8d6e-1763cdcdc93f
+2023-11-25 18:25:05.909 | INFO     | src.main:get_job_details:185 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/c833d7ac-1f10-468a-8e4a-fc57d70b3c05
+2023-11-25 18:25:05.917 | INFO     | src.main:get_job_details:185 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/01903449-d83c-4956-a7a9-e0b98a113f77
+2023-11-25 18:25:05.955 | INFO     | src.main:get_job_details:185 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/0d38a3bc-dc0a-4d9f-8477-b89a215d05eb
+2023-11-25 18:25:05.988 | INFO     | src.main:get_job_details:185 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/17cdf410-6e76-4ddc-9468-fbca19f7d00c
+2023-11-25 18:25:06.031 | INFO     | src.main:get_job_details:185 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/1ffd0bf2-c498-4d4a-b38b-96a5ca2f9a49
+2023-11-25 18:25:06.041 | INFO     | src.main:get_job_details:185 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/ddd72ea0-12b6-457e-9df9-9ce3897db092
+2023-11-25 18:25:06.069 | INFO     | src.main:get_job_details:185 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/85c794a6-4fc1-486b-8fa7-45679db512c1
+2023-11-25 18:25:06.178 | INFO     | src.main:get_job_details:185 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/20a90dfe-1e51-4e9a-bc4d-c082e6deebf6
+2023-11-25 18:25:06.217 | INFO     | src.main:get_job_details:185 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/bb61f9f7-741d-4fc2-89ae-73d38f3facea
+2023-11-25 18:25:23.318 | SUCCESS  | src.main:start:232 - Parser started..
+2023-11-25 18:25:24.027 | INFO     | src.main:get_all_jobs:69 - Total count of jobs: 4578
+2023-11-25 18:26:51.751 | ERROR    | src.main:start:245 - Failed to get jobs | 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte | Parser stopped..
+2023-11-25 18:26:52.783 | SUCCESS  | src.main:start:234 - Parser started..
+2023-11-25 18:26:53.220 | INFO     | src.main:get_all_jobs:69 - Total count of jobs: 4577
+2023-11-25 18:27:07.356 | INFO     | src.main:get_jobs_details:197 - Thread 1 | Got 458 jobs
+2023-11-25 18:27:07.357 | INFO     | src.main:get_jobs_details:197 - Thread 2 | Got 458 jobs
+2023-11-25 18:27:07.357 | INFO     | src.main:get_jobs_details:197 - Thread 3 | Got 458 jobs
+2023-11-25 18:27:07.357 | INFO     | src.main:get_jobs_details:197 - Thread 4 | Got 458 jobs
+2023-11-25 18:27:07.358 | INFO     | src.main:get_jobs_details:197 - Thread 5 | Got 457 jobs
+2023-11-25 18:27:07.358 | INFO     | src.main:get_jobs_details:197 - Thread 6 | Got 457 jobs
+2023-11-25 18:27:07.358 | INFO     | src.main:get_jobs_details:197 - Thread 7 | Got 457 jobs
+2023-11-25 18:27:07.358 | INFO     | src.main:get_jobs_details:197 - Thread 8 | Got 457 jobs
+2023-11-25 18:27:07.358 | INFO     | src.main:get_jobs_details:197 - Thread 9 | Got 457 jobs
+2023-11-25 18:27:07.359 | INFO     | src.main:get_jobs_details:197 - Thread 10 | Got 457 jobs
+2023-11-25 18:27:08.192 | INFO     | src.main:get_job_details:187 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/f8f67e31-0662-4585-8770-88b3150b4f34
+2023-11-25 18:27:08.295 | INFO     | src.main:get_job_details:187 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/0589d8ca-cb20-4a83-b1d0-9e91c5e26082
+2023-11-25 18:27:08.317 | INFO     | src.main:get_job_details:187 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/10f2aacc-858d-4f48-bf41-f98adac59bef
+2023-11-25 18:27:08.341 | INFO     | src.main:get_job_details:187 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/a5778a8d-6775-4135-9334-bfc83ff4c1c8
+2023-11-25 18:27:08.349 | INFO     | src.main:get_job_details:187 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/ffc93b6e-f9b2-45d8-b1b6-b5bbe2d67e91
+2023-11-25 18:27:08.390 | INFO     | src.main:get_job_details:187 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/5e13449c-c1cd-4bde-88a5-f5e3780561c1
+2023-11-25 18:27:08.402 | INFO     | src.main:get_job_details:187 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/66214f45-f19f-4199-a07c-f7fef9ea937a
+2023-11-25 18:27:08.467 | INFO     | src.main:get_job_details:187 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/26f7368c-7d2e-4f3a-bfa7-1807d60615a3
+2023-11-25 18:27:08.486 | INFO     | src.main:get_job_details:187 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/19863693-0f56-4032-aa83-2599e556c160
+2023-11-25 18:27:08.568 | INFO     | src.main:get_job_details:187 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/cda97693-d9bc-48cd-8a79-61fd57ec1761
+2023-11-25 18:27:08.641 | INFO     | src.main:get_job_details:187 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/2b700c40-4d26-470a-9855-fb7872fd3250
+2023-11-25 18:27:08.688 | INFO     | src.main:get_job_details:187 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/50c54d23-7e84-4d60-a524-660bd302d657
+2023-11-25 18:27:08.726 | INFO     | src.main:get_job_details:187 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/e4e4773d-98f5-4983-80d1-9b0fb319126a
+2023-11-25 18:27:08.745 | INFO     | src.main:get_job_details:187 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/7f328a44-a47d-4464-8746-138c39694292
+2023-11-25 18:27:08.752 | INFO     | src.main:get_job_details:187 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/cb7cdfcc-5b70-4b1d-ba06-4f7cd781cfa7
+2023-11-25 18:27:08.833 | INFO     | src.main:get_job_details:187 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/f2d35bbe-19f7-41cd-b7a8-41624457f510
+2023-11-25 18:27:08.871 | INFO     | src.main:get_job_details:187 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/a27c1e9c-5a12-4760-b43a-e8a66a7859e4
+2023-11-25 18:27:08.935 | INFO     | src.main:get_job_details:187 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/670ce555-11a7-46d1-8b55-67b67ab625b7
+2023-11-25 18:27:08.944 | INFO     | src.main:get_job_details:187 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/0cb94001-abe3-4831-b41e-e1f53b1a2156
+2023-11-25 18:27:09.034 | INFO     | src.main:get_job_details:187 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/66cb4c5b-c925-418d-a22f-883ecdc3980d
+2023-11-25 18:27:09.108 | INFO     | src.main:get_job_details:187 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/e8e8eb5b-43c1-4f61-9450-8d0c5e9aecf7
+2023-11-25 18:27:09.124 | INFO     | src.main:get_job_details:187 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/1886c6ad-54e0-448b-bfec-54d612550c18
+2023-11-25 18:27:09.133 | INFO     | src.main:get_job_details:187 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/9747fb46-fe7c-4d6d-9eec-e576e503ad6b
+2023-11-25 18:27:09.153 | INFO     | src.main:get_job_details:187 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/244102b2-3c61-400f-98d0-47dd1636c1c5
+2023-11-25 18:27:09.230 | INFO     | src.main:get_job_details:187 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/5c50f5e4-0e7e-4a9e-9072-8f949d5cc7d0
+2023-11-25 18:27:09.244 | INFO     | src.main:get_job_details:187 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/906ccdad-548e-496e-8fd2-c3396bb7b615
+2023-11-25 18:27:09.298 | INFO     | src.main:get_job_details:187 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/d1cfc6d9-d96d-4df7-9c83-efc8715b10ba
+2023-11-25 18:27:09.312 | INFO     | src.main:get_job_details:187 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/9d4796e5-f777-4153-8531-d41f62413430
+2023-11-25 18:27:09.362 | INFO     | src.main:get_job_details:187 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/38105d7c-9dbe-479f-9509-ff1e74459d5b
+2023-11-25 18:27:09.407 | INFO     | src.main:get_job_details:187 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/69384fac-e09e-455f-95b7-735cf4666830
+2023-11-25 18:27:09.464 | INFO     | src.main:get_job_details:187 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/d70864ed-0e2b-41b0-ba28-0010bc1affc4
+2023-11-25 18:27:09.475 | INFO     | src.main:get_job_details:187 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/ce0d7cf6-07cf-4926-8200-418372299e36
+2023-11-25 18:27:09.500 | INFO     | src.main:get_job_details:187 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/69b67481-143d-4a65-902f-e82eb15af6c5
+2023-11-25 18:27:09.556 | INFO     | src.main:get_job_details:187 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/744268d1-038b-415a-955f-38e6cfca9621
+2023-11-25 18:27:09.606 | INFO     | src.main:get_job_details:187 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/f516b46d-2b6e-4f08-bab5-d4d1583798e0
+2023-11-25 18:27:09.614 | INFO     | src.main:get_job_details:187 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/8698427e-a0f4-4227-8a96-613883e92d3e
+2023-11-25 18:27:09.698 | INFO     | src.main:get_job_details:187 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/0421c463-7814-4651-89ac-14217e62ae4f
+2023-11-25 18:27:09.733 | INFO     | src.main:get_job_details:187 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/c68921cc-6864-4371-910a-a4c6aa1e52da
+2023-11-25 18:27:09.760 | INFO     | src.main:get_job_details:187 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/ef0ce127-7366-4a5a-b2e0-6b2c05a918b2
+2023-11-25 18:27:09.786 | INFO     | src.main:get_job_details:187 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/f1f0c634-499c-4bb6-bc72-35bdc74dc232
+2023-11-25 18:27:09.847 | INFO     | src.main:get_job_details:187 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/a271a172-6124-4413-9b8e-23c9e78803fe
+2023-11-25 18:27:09.868 | INFO     | src.main:get_job_details:187 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/c3acd364-a4d3-4f6c-80e8-91f5fe92008f
+2023-11-25 18:27:09.902 | INFO     | src.main:get_job_details:187 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/947be325-3fa1-424a-bde2-71f00cb02cf2
+2023-11-25 18:27:10.002 | INFO     | src.main:get_job_details:187 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/f935d4d2-62d8-472b-9523-06744a3643f6
+2023-11-25 18:27:10.013 | INFO     | src.main:get_job_details:187 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/27dabfad-f459-476c-8db0-95dea1ebb7b2
+2023-11-25 18:27:10.042 | INFO     | src.main:get_job_details:187 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/6b9c54c7-689a-4473-9a8e-0467510e084f
+2023-11-25 18:27:10.104 | INFO     | src.main:get_job_details:187 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/b506d90d-ea8d-4704-93cd-f2b44bb98111
+2023-11-25 18:27:10.146 | INFO     | src.main:get_job_details:187 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/a718f1fa-3202-4592-a545-93be2e56aaaa
+2023-11-25 18:27:10.153 | INFO     | src.main:get_job_details:187 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/9e1d36f8-8437-4d85-b779-f453d734b652
+2023-11-25 18:27:10.163 | INFO     | src.main:get_job_details:187 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/d2be585c-4ac5-4b9c-b461-eaeafcc93dd1
+2023-11-25 18:27:10.248 | INFO     | src.main:get_job_details:187 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/17d2b961-bc42-4dc3-8e30-a7cd84a2c9c3
+2023-11-25 18:27:10.257 | INFO     | src.main:get_job_details:187 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/2c07b3d3-dad0-47a2-b3c3-04181531e29c
+2023-11-25 18:27:10.267 | INFO     | src.main:get_job_details:187 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/c0f2ae6f-d2f1-42a0-a172-cc176d8328bd
+2023-11-25 18:27:10.375 | INFO     | src.main:get_job_details:187 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/c27c7c22-491d-499a-8335-7c358a603398
+2023-11-25 18:27:10.399 | INFO     | src.main:get_job_details:187 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/092527d0-1113-4ca2-8d83-0851fca7b1bf
+2023-11-25 18:27:10.421 | INFO     | src.main:get_job_details:187 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/773d6d8f-bb41-472f-852f-d2a6a5cfa136
+2023-11-25 18:27:10.531 | INFO     | src.main:get_job_details:187 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/31c18cc3-8d6c-4443-99ff-54781c4fc6df
+2023-11-25 18:27:10.539 | INFO     | src.main:get_job_details:187 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/1cdd16e9-6a8c-4988-99fb-dab38d39e604
+2023-11-25 18:27:10.548 | INFO     | src.main:get_job_details:187 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/c04e3a3f-ec3b-4538-b341-b327b9bc73de
+2023-11-25 18:27:10.564 | INFO     | src.main:get_job_details:187 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/60647db4-84a4-46a8-be33-12a74152aa49
+2023-11-25 18:27:10.643 | INFO     | src.main:get_job_details:187 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/a76d6078-7207-48b2-83d8-77d2b239a05f
+2023-11-25 18:27:10.672 | INFO     | src.main:get_job_details:187 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/53ad801d-cdb1-4854-a483-d059f28d6341
+2023-11-25 18:27:10.718 | INFO     | src.main:get_job_details:187 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/4e49f60b-4d5d-40a9-bc7b-e7a0d9f3e3e1
+2023-11-25 18:27:10.753 | INFO     | src.main:get_job_details:187 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/27597e7f-bbb2-4bac-a410-cc103be8238a
+2023-11-25 18:27:10.780 | INFO     | src.main:get_job_details:187 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/d292299b-7eae-49e7-8b90-056f84cb8cc3
+2023-11-25 18:27:10.835 | INFO     | src.main:get_job_details:187 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/f48e1801-735c-41f7-807b-d81a88362ff8
+2023-11-25 18:27:10.883 | INFO     | src.main:get_job_details:187 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/d20e768d-bbf5-45b4-a601-80b95aeaa676
+2023-11-25 18:27:10.952 | INFO     | src.main:get_job_details:187 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/b848033c-fb9d-41c2-ad8f-330d53d6a4b4
+2023-11-25 18:27:10.967 | INFO     | src.main:get_job_details:187 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/4be8baf7-4016-4e17-a928-e652fe82c6be
+2023-11-25 18:27:10.977 | INFO     | src.main:get_job_details:187 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/9e2cec0e-8692-4b00-9f9a-4b5e59ffd2e4
+2023-11-25 18:27:10.996 | INFO     | src.main:get_job_details:187 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/dbd11123-dcb8-4b79-ae74-70640a2069da
+2023-11-25 18:27:11.070 | INFO     | src.main:get_job_details:187 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/d9b12351-f98c-459c-af0c-d56b034cefa4
+2023-11-25 18:27:11.133 | INFO     | src.main:get_job_details:187 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/41908f4e-2918-4f23-9c72-28c7fdb4cd07
+2023-11-25 18:27:11.168 | INFO     | src.main:get_job_details:187 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/345b34f1-8507-400c-a1ee-28ea8c6eb56f
+2023-11-25 18:27:11.183 | INFO     | src.main:get_job_details:187 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/5c62b696-770f-48f9-a2d9-37b3a731d371
+2023-11-25 18:27:11.193 | INFO     | src.main:get_job_details:187 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/211b7cb8-a648-498c-a8a9-3137658522c8
+2023-11-25 18:27:11.262 | INFO     | src.main:get_job_details:187 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/0ffcbaa2-d5e5-47db-9c85-43fc056f75bf
+2023-11-25 18:27:11.309 | INFO     | src.main:get_job_details:187 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/6639d2a5-62b3-461d-9fe4-3b6e824a77f9
+2023-11-25 18:27:11.358 | INFO     | src.main:get_job_details:187 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/f7cffd10-6376-48c7-83f9-f968e2ef60c4
+2023-11-25 18:27:11.366 | INFO     | src.main:get_job_details:187 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/13504e00-cb03-4078-add2-f626f9114b16
+2023-11-25 18:27:11.375 | INFO     | src.main:get_job_details:187 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/faf90342-aa57-4461-8b71-41add95ce1b2
+2023-11-25 18:27:11.429 | INFO     | src.main:get_job_details:187 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/29cc9f70-6ade-4eee-b562-c2f9837db931
+2023-11-25 18:27:11.500 | INFO     | src.main:get_job_details:187 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/41bf521e-4ea9-4d27-b0fa-18f38d380352
+2023-11-25 18:27:11.536 | INFO     | src.main:get_job_details:187 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/6cf4c9a5-0135-4ac7-8f05-419fec7a5953
+2023-11-25 18:27:11.570 | INFO     | src.main:get_job_details:187 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/6231dbc2-64b3-4cd8-a250-ea61d09385dc
+2023-11-25 18:27:11.605 | INFO     | src.main:get_job_details:187 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/0c86005d-4dcf-4330-8621-b3f852e9cdc4
+2023-11-25 18:27:11.613 | INFO     | src.main:get_job_details:187 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/6b2400f0-fd0e-46c7-aeb5-b549d5614a7b
+2023-11-25 18:27:11.707 | INFO     | src.main:get_job_details:187 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/88a76621-2ec3-4be6-9751-785a04d1a174
+2023-11-25 18:27:11.721 | INFO     | src.main:get_job_details:187 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/88cce735-46ed-430d-9439-88f1dd9b212c
+2023-11-25 18:27:11.745 | INFO     | src.main:get_job_details:187 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/93e11144-ddda-4411-af9d-0cfe6ff79f03
+2023-11-25 18:27:11.794 | INFO     | src.main:get_job_details:187 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/0038492c-606b-48fa-894d-443e6fecbdf0
+2023-11-25 18:27:11.876 | INFO     | src.main:get_job_details:187 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/5b5010eb-bb7f-4da3-954b-6e5fc532d31a
+2023-11-25 18:27:11.938 | INFO     | src.main:get_job_details:187 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/cd535165-8c0d-4763-a7f9-cced279ce723
+2023-11-25 18:27:11.948 | INFO     | src.main:get_job_details:187 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/66d4acd1-0971-4c94-8358-0f10ec6b442d
+2023-11-25 18:27:11.975 | INFO     | src.main:get_job_details:187 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/1c1e7aed-9e13-4a70-9ff5-498ccfde37b2
+2023-11-25 18:27:11.982 | INFO     | src.main:get_job_details:187 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/c01c701e-9369-4db5-b24f-4fb3de516809
+2023-11-25 18:27:12.061 | INFO     | src.main:get_job_details:187 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/faebecb9-cfb8-486a-bd30-861449964ec4
+2023-11-25 18:27:12.098 | INFO     | src.main:get_job_details:187 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/3725899d-d0f2-49a5-8ac5-fb718d4c576f
+2023-11-25 18:27:12.132 | INFO     | src.main:get_job_details:187 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/d2b010d5-a306-4f1e-b1e1-4b4fe4790799
+2023-11-25 18:27:12.177 | INFO     | src.main:get_job_details:187 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/2dd0dd94-595d-4503-852e-b6ff558d0dcb
+2023-11-25 18:27:12.262 | INFO     | src.main:get_job_details:187 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/e85f0ef0-fa5f-40b4-be2d-e7d063920884
+2023-11-25 18:27:12.289 | INFO     | src.main:get_job_details:187 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/ba3bbb95-aff5-4586-8ef9-363e0c06d380
+2023-11-25 18:27:12.343 | INFO     | src.main:get_job_details:187 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/4f85c270-f936-4c14-841e-72f227929423
+2023-11-25 18:27:12.374 | INFO     | src.main:get_job_details:187 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/36aa7165-98bd-4f9e-ba71-310bd41da4d2
+2023-11-25 18:27:12.383 | INFO     | src.main:get_job_details:187 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/d9b83b2a-03af-4a41-946e-888807a81746
+2023-11-25 18:27:12.407 | INFO     | src.main:get_job_details:187 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/b1d2ca2b-5e0d-41fe-bd9e-21a7da3d7cfa
+2023-11-25 18:27:12.488 | INFO     | src.main:get_job_details:187 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/2581785a-e08e-4c3d-89e8-983fb470470c
+2023-11-25 18:27:12.506 | INFO     | src.main:get_job_details:187 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/8c87adce-e88e-4b18-9849-0b4b44c26fb3
+2023-11-25 18:27:12.515 | INFO     | src.main:get_job_details:187 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/99335d1b-6770-47c6-bf2d-540472cf0ac0
+2023-11-25 18:27:12.622 | INFO     | src.main:get_job_details:187 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/6e327fb0-5bc6-4e7f-a3d7-ec55bbb6201f
+2023-11-25 18:27:12.633 | INFO     | src.main:get_job_details:187 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/3e15f3d4-2ca2-4d42-adca-c04a960a2fc8
+2023-11-25 18:27:12.671 | INFO     | src.main:get_job_details:187 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/f2a36d31-22cd-4a18-998d-8ec771366bca
+2023-11-25 18:27:12.725 | INFO     | src.main:get_job_details:187 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/12da2d76-501d-4578-ac25-cf18b5ecceb7
+2023-11-25 18:27:12.755 | INFO     | src.main:get_job_details:187 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/9ff97361-8d8b-46be-948f-26121e923d13
+2023-11-25 18:27:12.890 | INFO     | src.main:get_job_details:187 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/6502e71d-0877-472e-aa5e-ca60f53ecadb
+2023-11-25 18:27:12.908 | INFO     | src.main:get_job_details:187 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/433793c6-bfdb-421a-93c4-d714763e4310
+2023-11-25 18:27:12.914 | INFO     | src.main:get_job_details:187 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/7699d2e7-0e3a-44a7-8534-ce077ca437a8
+2023-11-25 18:27:12.927 | INFO     | src.main:get_job_details:187 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/080d8303-b491-44dd-89d3-308726c7b052
+2023-11-25 18:27:12.973 | INFO     | src.main:get_job_details:187 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/19452f48-b7b5-4b16-a8a5-b72f2e785dd8
+2023-11-25 18:27:13.003 | INFO     | src.main:get_job_details:187 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/5c50639a-432b-47aa-ae6d-66aefbd541ac
+2023-11-25 18:27:13.058 | INFO     | src.main:get_job_details:187 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/46f775e8-afb4-44e4-9f34-3cb3792b4fbd
+2023-11-25 18:27:13.068 | INFO     | src.main:get_job_details:187 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/5215fb52-e817-47a0-8dfc-501a5f616ec0
+2023-11-25 18:27:13.090 | INFO     | src.main:get_job_details:187 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/2e671e33-80ba-47ea-a9b6-c160591c145c
+2023-11-25 18:27:13.099 | INFO     | src.main:get_job_details:187 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/6dd7a657-45a8-4a67-9f8f-ef1c9eae5b37
+2023-11-25 18:27:13.260 | INFO     | src.main:get_job_details:187 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/6eef7351-2238-4d79-9119-0439befe13c1
+2023-11-25 18:27:13.279 | INFO     | src.main:get_job_details:187 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/0e055916-e7fd-47cc-9a60-d55ced7eb7a3
+2023-11-25 18:27:13.287 | INFO     | src.main:get_job_details:187 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/dd2503d7-5595-4a18-965c-6a2db4802b89
+2023-11-25 18:27:13.349 | INFO     | src.main:get_job_details:187 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/c83e8273-ae53-442f-b549-f44615857e6f
+2023-11-25 18:27:13.394 | INFO     | src.main:get_job_details:187 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/2b7d513d-664d-4ee0-8757-bcf57245fbec
+2023-11-25 18:27:13.404 | INFO     | src.main:get_job_details:187 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/7f0fb905-8bd8-4dbd-ada3-95cdb393fa01
+2023-11-25 18:27:13.412 | INFO     | src.main:get_job_details:187 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/50bf0433-04a3-4236-8be9-2206a23697ad
+2023-11-25 18:27:13.444 | INFO     | src.main:get_job_details:187 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/29bb3231-b038-4804-a00b-662b2f3dff74
+2023-11-25 18:27:13.482 | INFO     | src.main:get_job_details:187 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/235239d2-6ffe-4595-97e7-5ca46615cee8
+2023-11-25 18:27:13.492 | INFO     | src.main:get_job_details:187 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/58b914dd-3263-48c0-93ea-c24918348d4b
+2023-11-25 18:27:13.651 | INFO     | src.main:get_job_details:187 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/a9dee42d-1925-4ddd-a20c-b4317e9890e3
+2023-11-25 18:27:13.667 | INFO     | src.main:get_job_details:187 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/1a424016-f5bf-46fc-a9dc-7481b0a48c9b
+2023-11-25 18:27:13.673 | INFO     | src.main:get_job_details:187 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/51e13c8a-d029-430a-897a-9da9afda6a90
+2023-11-25 18:27:13.746 | INFO     | src.main:get_job_details:187 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/8233d639-af1c-452e-a6e0-0d137551a037
+2023-11-25 18:27:13.773 | INFO     | src.main:get_job_details:187 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/efafb07f-a685-43a2-8e34-d5d2637fa766
+2023-11-25 18:27:13.781 | INFO     | src.main:get_job_details:187 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/dee6cc2f-05db-4e23-a2ab-44ec4a7029df
+2023-11-25 18:27:13.793 | INFO     | src.main:get_job_details:187 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/6b08aced-754c-432d-99f7-3377c0405f71
+2023-11-25 18:27:13.847 | INFO     | src.main:get_job_details:187 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/0f4ed32c-7370-47aa-96d7-f27a5d7af3cd
+2023-11-25 18:27:13.865 | INFO     | src.main:get_job_details:187 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/97c973b6-57cc-4294-9d5b-e036588d33f7
+2023-11-25 18:27:13.942 | INFO     | src.main:get_job_details:187 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/f509265c-d501-49c2-a286-70b1d6105571
+2023-11-25 18:27:14.005 | INFO     | src.main:get_job_details:187 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/7bd5fc51-a0de-48a8-95bf-2bd4bcbd2295
+2023-11-25 18:27:14.039 | INFO     | src.main:get_job_details:187 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/a3bdde0f-98cc-4653-9a92-1767a041956b
+2023-11-25 18:27:14.047 | INFO     | src.main:get_job_details:187 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/2c105acd-bb1d-480f-a0d7-8313c4c5464d
+2023-11-25 18:27:14.111 | INFO     | src.main:get_job_details:187 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/b4f4adce-e484-4ebf-b4ee-9b37a7331211
+2023-11-25 18:27:14.133 | INFO     | src.main:get_job_details:187 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/963f7c3e-e8fc-420b-b438-c81be06794c7
+2023-11-25 18:27:14.190 | INFO     | src.main:get_job_details:187 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/fb1973b3-c360-417e-8b3f-9f816c378b24
+2023-11-25 18:27:14.245 | INFO     | src.main:get_job_details:187 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/96998168-64b3-4eff-927f-7aebae34a8ee
+2023-11-25 18:27:14.272 | INFO     | src.main:get_job_details:187 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/c7d5f4c6-4e2e-442c-ae48-538ed6c35c4f
+2023-11-25 18:27:14.360 | INFO     | src.main:get_job_details:187 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/333fccc0-c563-45f5-995d-0755de6114f2
+2023-11-25 18:27:14.372 | INFO     | src.main:get_job_details:187 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/3414e6dc-3ff2-4da7-a8b6-b13df07ebf88
+2023-11-25 18:27:14.409 | INFO     | src.main:get_job_details:187 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/a1ea4d09-473d-499a-9442-c144dc6e282f
+2023-11-25 18:27:14.417 | INFO     | src.main:get_job_details:187 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/ca7fbab6-40e3-4519-9ffe-81dabbbe3273
+2023-11-25 18:27:14.456 | INFO     | src.main:get_job_details:187 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/35d2c9ce-e3b4-455a-8afd-bb53923bb6a3
+2023-11-25 18:27:14.486 | INFO     | src.main:get_job_details:187 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/61fcd301-fdc6-4187-ac8c-2c271166d095
+2023-11-25 18:27:14.495 | INFO     | src.main:get_job_details:187 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/dc33c4fa-d320-4187-ba19-565b2c71f2e1
+2023-11-25 18:27:14.588 | INFO     | src.main:get_job_details:187 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/dc07f1c3-4f3d-4654-8139-4be632933ad3
+2023-11-25 18:27:14.619 | INFO     | src.main:get_job_details:187 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/bf41f275-ce17-4c3c-aa18-616d31cb8560
+2023-11-25 18:27:14.633 | INFO     | src.main:get_job_details:187 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/0b593a10-5f9b-431c-91a7-e35ad9031d1b
+2023-11-25 18:27:14.788 | INFO     | src.main:get_job_details:187 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/529a58df-d14f-4d69-8f04-a01e251f7e9a
+2023-11-25 18:27:14.797 | INFO     | src.main:get_job_details:187 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/0b00c2aa-ce42-47cf-b06e-451b1dd52a31
+2023-11-25 18:27:14.804 | INFO     | src.main:get_job_details:187 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/2c079dbd-0705-425d-b3bc-d5d75fa1cde9
+2023-11-25 18:27:14.812 | INFO     | src.main:get_job_details:187 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/b9f920e2-27c7-4bba-9a8b-320ab93f9546
+2023-11-25 18:27:14.821 | INFO     | src.main:get_job_details:187 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/c673813a-f3e6-408e-938e-3009376dc87b
+2023-11-25 18:27:14.869 | INFO     | src.main:get_job_details:187 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/2a79ea45-4b1c-47c8-bc36-34b0fa8273d2
+2023-11-25 18:27:14.880 | INFO     | src.main:get_job_details:187 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/1c553d43-3e24-4c19-9435-b65f0dacb55c
+2023-11-25 18:27:14.968 | INFO     | src.main:get_job_details:187 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/db4cdbf8-1a15-4a8d-91b3-d938aa2e138c
+2023-11-25 18:27:15.023 | INFO     | src.main:get_job_details:187 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/1f00ee42-bb5d-405e-a689-fccff010bf44
+2023-11-25 18:27:15.043 | INFO     | src.main:get_job_details:187 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/e389d63a-bcf8-4e3c-94dd-cc0dce00f58b
+2023-11-25 18:27:15.190 | INFO     | src.main:get_job_details:187 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/70a8c3c7-00a5-4cdf-8636-0ef65faadb70
+2023-11-25 18:27:15.204 | INFO     | src.main:get_job_details:187 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/78c90fdd-bb44-4178-a597-d238fa39316c
+2023-11-25 18:27:15.253 | INFO     | src.main:get_job_details:187 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/c6fd123a-52db-4ffc-aaa4-850f35deff07
+2023-11-25 18:27:15.260 | INFO     | src.main:get_job_details:187 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/a08f07f7-253b-4b36-a0a2-611a8c5925ca
+2023-11-25 18:27:15.297 | INFO     | src.main:get_job_details:187 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/52911637-617b-4099-9191-a69fbfc930c1
+2023-11-25 18:27:15.306 | INFO     | src.main:get_job_details:187 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/303b4acf-eba5-47fe-af5e-32843e49c9f2
+2023-11-25 18:27:15.314 | INFO     | src.main:get_job_details:187 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/c027645d-bd11-4404-8cdb-e654d7f86152
+2023-11-25 18:27:15.408 | INFO     | src.main:get_job_details:187 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/e214a6f7-c918-438c-b319-48711cc4dbc9
+2023-11-25 18:27:15.424 | INFO     | src.main:get_job_details:187 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/8d33e443-748e-4146-9596-238d4be583be
+2023-11-25 18:27:15.430 | INFO     | src.main:get_job_details:187 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/8dde0a86-446c-410f-bc97-f78ada6dc156
+2023-11-25 18:27:15.586 | INFO     | src.main:get_job_details:187 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/7c1a2071-5580-4a23-a8b8-e8ac4521e6f3
+2023-11-25 18:27:15.601 | INFO     | src.main:get_job_details:187 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/14c76435-791c-4ae8-92a0-961be41037b4
+2023-11-25 18:27:15.635 | INFO     | src.main:get_job_details:187 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/84d232fb-416c-4f46-823c-91c29e8fbc60
+2023-11-25 18:27:15.645 | INFO     | src.main:get_job_details:187 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/00191d2e-7db1-470a-9ad9-5ddeddd7be0e
+2023-11-25 18:27:15.654 | INFO     | src.main:get_job_details:187 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/df4e39e7-ab46-495d-b7a2-cdf7bfb87827
+2023-11-25 18:27:15.678 | INFO     | src.main:get_job_details:187 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/e40d614e-0240-44a7-8fd1-f057af3cd151
+2023-11-25 18:27:15.714 | INFO     | src.main:get_job_details:187 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/91ad6e0d-9c4e-48bd-85b3-890113e2a83f
+2023-11-25 18:27:15.767 | INFO     | src.main:get_job_details:187 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/b0073b62-dd8c-4908-8201-dfdc091122f8
+2023-11-25 18:27:15.818 | INFO     | src.main:get_job_details:187 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/b3d403ef-efc9-4ea4-851a-40e87985ad58
+2023-11-25 18:27:15.870 | INFO     | src.main:get_job_details:187 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/df72ec38-5922-48c5-92df-22879acd25d2
+2023-11-25 18:27:15.937 | INFO     | src.main:get_job_details:187 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/4db40585-4e2e-44f4-b07b-c67b7cefea72
+2023-11-25 18:27:15.984 | INFO     | src.main:get_job_details:187 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/ddd72ea0-12b6-457e-9df9-9ce3897db092
+2023-11-25 18:27:15.998 | INFO     | src.main:get_job_details:187 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/980d67f5-357e-4518-8a64-366bf706c9f3
+2023-11-25 18:27:16.046 | INFO     | src.main:get_job_details:187 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/2b8ba105-4062-4230-a806-d108af50ecae
+2023-11-25 18:27:16.064 | INFO     | src.main:get_job_details:187 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/17cdf410-6e76-4ddc-9468-fbca19f7d00c
+2023-11-25 18:27:16.087 | INFO     | src.main:get_job_details:187 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/38869f78-03a8-4ce1-b561-f93d8ee6a40c
+2023-11-25 18:27:16.095 | INFO     | src.main:get_job_details:187 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/157892bc-a7aa-4a87-be72-6be4300526d4
+2023-11-25 18:27:16.124 | INFO     | src.main:get_job_details:187 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/b31f5ea8-d3a3-4d98-8036-94004d792b42
+2023-11-25 18:27:16.220 | INFO     | src.main:get_job_details:187 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/30840cbc-3a79-499a-8b42-09f0ac811a6b
+2023-11-25 18:27:16.227 | INFO     | src.main:get_job_details:187 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/e9e5946f-f2df-4b8b-890e-c1ae1923471e
+2023-11-25 18:27:16.300 | INFO     | src.main:get_job_details:187 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/f2014d0f-28fb-483f-8755-27c7a950f8b2
+2023-11-25 18:27:16.364 | INFO     | src.main:get_job_details:187 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/8b912433-0681-490f-89fd-c7a49e76c75c
+2023-11-25 18:27:16.388 | INFO     | src.main:get_job_details:187 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/b88700cb-4b4b-4fd0-bdf3-9a539b15b0ed
+2023-11-25 18:27:16.476 | INFO     | src.main:get_job_details:187 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/de19008a-33db-440b-94cf-6ee29d63a8bb
+2023-11-25 18:27:16.491 | INFO     | src.main:get_job_details:187 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/db40cf63-3ce5-4eb5-aef1-0e5f368a2e29
+2023-11-25 18:27:16.499 | INFO     | src.main:get_job_details:187 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/3be828b0-2c2e-42b5-8703-606450bcaa34
+2023-11-25 18:27:16.508 | INFO     | src.main:get_job_details:187 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/a3018afe-c171-4579-a10a-8c645e056636
+2023-11-25 18:27:16.558 | INFO     | src.main:get_job_details:187 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/d1fded76-1905-4ccf-ac2f-a043076902b4
+2023-11-25 18:27:16.589 | INFO     | src.main:get_job_details:187 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/d5765372-801b-420e-b79b-70900afeeae6
+2023-11-25 18:27:16.625 | INFO     | src.main:get_job_details:187 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/bb61f9f7-741d-4fc2-89ae-73d38f3facea
+2023-11-25 18:27:16.731 | INFO     | src.main:get_job_details:187 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/2554ef52-0ae0-416b-8cb5-1599b614b392
+2023-11-25 18:27:16.740 | INFO     | src.main:get_job_details:187 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/5f51e099-e244-46b7-a8e5-8299bc5aa15f
+2023-11-25 18:27:16.839 | INFO     | src.main:get_job_details:187 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/cef3b668-0a07-4fa4-afdf-73bd7a7af5dd
+2023-11-25 18:27:16.889 | INFO     | src.main:get_job_details:187 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/1ffd0bf2-c498-4d4a-b38b-96a5ca2f9a49
+2023-11-25 18:27:16.914 | INFO     | src.main:get_job_details:187 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/d3d3628c-6cf5-4d28-b03c-ab36a5513306
+2023-11-25 18:27:16.941 | INFO     | src.main:get_job_details:187 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/20a90dfe-1e51-4e9a-bc4d-c082e6deebf6
+2023-11-25 18:27:16.975 | INFO     | src.main:get_job_details:187 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/c833d7ac-1f10-468a-8e4a-fc57d70b3c05
+2023-11-25 18:27:16.989 | INFO     | src.main:get_job_details:187 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/e58d2a48-55cb-4b5f-b582-2bbd4eaa5fd0
+2023-11-25 18:27:16.995 | INFO     | src.main:get_job_details:187 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/0d38a3bc-dc0a-4d9f-8477-b89a215d05eb
+2023-11-25 18:27:17.115 | INFO     | src.main:get_job_details:187 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/f67a7077-09a9-49fe-ab49-1b789070bb7d
+2023-11-25 18:27:17.124 | INFO     | src.main:get_job_details:187 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/92c59b66-7365-447b-aa6d-599b7c41e0ab
+2023-11-25 18:27:17.130 | INFO     | src.main:get_job_details:187 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/2b492831-d61e-4886-91b7-473746652430
+2023-11-25 18:27:17.212 | INFO     | src.main:get_job_details:187 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/cb3ba191-6f99-4d6a-8d6e-1763cdcdc93f
+2023-11-25 18:27:17.245 | INFO     | src.main:get_job_details:187 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/a3f2fe27-4c74-4d2c-8995-347bc3b1670c
+2023-11-25 18:27:17.356 | INFO     | src.main:get_job_details:187 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/9111f4d1-c636-47de-b58f-417223321901
+2023-11-25 18:27:17.366 | INFO     | src.main:get_job_details:187 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/d2b08e80-ad93-4baa-b566-42e3f89fc005
+2023-11-25 18:27:17.373 | INFO     | src.main:get_job_details:187 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/3fe67e18-5f0a-4bd3-8afa-ccea5c906388
+2023-11-25 18:27:17.381 | INFO     | src.main:get_job_details:187 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/51acdc85-2299-4b47-8809-6b10f666b9cd
+2023-11-25 18:27:17.387 | INFO     | src.main:get_job_details:187 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/c1cbd035-619d-4877-b3f7-441c2625d0c4
+2023-11-25 18:27:17.547 | INFO     | src.main:get_job_details:187 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/01903449-d83c-4956-a7a9-e0b98a113f77
+2023-11-25 18:27:17.565 | INFO     | src.main:get_job_details:187 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/376a95a3-82b1-4f76-b008-cb752e7ab4f1
+2023-11-25 18:27:17.576 | INFO     | src.main:get_job_details:187 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/bea7dd13-faba-4eca-9b63-c127a162f2b7
+2023-11-25 18:27:17.588 | INFO     | src.main:get_job_details:187 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/222a4655-72af-4790-8151-36c8a158517a
+2023-11-25 18:27:17.637 | INFO     | src.main:get_job_details:187 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/66c3661e-562c-4c69-bfa3-4325837d8ad8
+2023-11-25 18:27:17.764 | INFO     | src.main:get_job_details:187 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/1554aa0f-aa06-45ad-9eac-26462e17b9a0
+2023-11-25 18:27:17.776 | INFO     | src.main:get_job_details:187 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/7a2545bc-902c-4fbe-bad2-0e76349e4eed
+2023-11-25 18:27:17.785 | INFO     | src.main:get_job_details:187 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/a4dce79f-a7b9-41a9-a1ab-69d2c139fa29
+2023-11-25 18:27:17.799 | INFO     | src.main:get_job_details:187 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/34c24212-6fa0-41cd-bb52-67cf44fb2970
+2023-11-25 18:27:17.836 | INFO     | src.main:get_job_details:187 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/924d89e2-1d60-4965-87a6-5963f8a0b19c
+2023-11-25 18:27:17.922 | INFO     | src.main:get_job_details:187 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/8fde5fdc-e5b5-43d8-8ed1-37be762c0aa2
+2023-11-25 18:27:17.965 | INFO     | src.main:get_job_details:187 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/ba170008-e98f-4230-9da1-931629206318
+2023-11-25 18:27:17.993 | INFO     | src.main:get_job_details:187 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/0c9f2e86-38b9-4c6a-abe6-0ab4bad7f1c7
+2023-11-25 18:27:18.040 | INFO     | src.main:get_job_details:187 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/63ca30c3-bf90-4acc-a807-2fa136bf5cda
+2023-11-25 18:27:18.143 | INFO     | src.main:get_job_details:187 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/5564e507-943c-4030-95b2-d358ca134ed0
+2023-11-25 18:27:18.170 | INFO     | src.main:get_job_details:187 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/5ae978a2-9ddb-4569-aaf3-9adfa2d5dfee
+2023-11-25 18:27:18.179 | INFO     | src.main:get_job_details:187 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/1f074370-0c2b-4c3e-9512-d17409979baa
+2023-11-25 18:27:18.193 | INFO     | src.main:get_job_details:187 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/0860d260-37f3-40f7-877c-da3ab6b1f382
+2023-11-25 18:27:18.204 | INFO     | src.main:get_job_details:187 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/8e34e80f-5e92-40f8-abd6-c5f23eb8ebc6
+2023-11-25 18:27:18.213 | INFO     | src.main:get_job_details:187 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/91ca5f39-95c9-4f05-a572-f9e4a03671ec
+2023-11-25 18:27:18.277 | INFO     | src.main:get_job_details:187 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/7d18701d-7c8a-412c-8161-ff3ae72f8a90
+2023-11-25 18:27:18.347 | INFO     | src.main:get_job_details:187 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/85c794a6-4fc1-486b-8fa7-45679db512c1
+2023-11-25 18:27:18.360 | INFO     | src.main:get_job_details:187 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/fdbf55b1-0ce8-45af-b7f3-64bd37a72732
+2023-11-25 18:27:18.377 | INFO     | src.main:get_job_details:187 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/5cb40620-d5ab-43e9-ba97-e7a2f8123785
+2023-11-25 18:27:18.487 | INFO     | src.main:get_job_details:187 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/b5fda133-fd52-41d1-9115-04cc74edb469
+2023-11-25 18:27:18.553 | INFO     | src.main:get_job_details:187 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/22eac1ef-b621-40ef-9694-34a8b4f20905
+2023-11-25 18:27:18.562 | INFO     | src.main:get_job_details:187 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/f9bfb841-d7fa-4f8f-a4fa-5addb22c2274
+2023-11-25 18:27:18.581 | INFO     | src.main:get_job_details:187 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/efb65e4e-0cdb-4243-acb7-804458c871e5
+2023-11-25 18:27:18.592 | INFO     | src.main:get_job_details:187 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/0486f37f-5132-411b-bfd4-22007e2dc4f2
+2023-11-25 18:27:18.601 | INFO     | src.main:get_job_details:187 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/10a6633b-00a1-4ee4-8cb9-aaa01e53b48c
+2023-11-25 18:27:18.679 | INFO     | src.main:get_job_details:187 - Thread: 4 | Got job offer for url: https://www.dice.com/job-detail/9a7466de-7667-42e4-b3b7-53801c1f5bcf
+2023-11-25 18:27:18.695 | INFO     | src.main:get_job_details:187 - Thread: 9 | Got job offer for url: https://www.dice.com/job-detail/8f3ca981-1194-4d1f-aa56-9b6592cea26e
+2023-11-25 18:27:18.740 | INFO     | src.main:get_job_details:187 - Thread: 3 | Got job offer for url: https://www.dice.com/job-detail/efa4b7a5-c8cb-46c5-a499-b742aecf6b4a
+2023-11-25 18:27:18.754 | INFO     | src.main:get_job_details:187 - Thread: 10 | Got job offer for url: https://www.dice.com/job-detail/b8506417-7234-4502-be07-f1487846582b
+2023-11-25 18:27:18.819 | INFO     | src.main:get_job_details:187 - Thread: 7 | Got job offer for url: https://www.dice.com/job-detail/cf90fa61-147a-4b2c-8da4-a7278e2c251d
+2023-11-25 18:27:18.915 | INFO     | src.main:get_job_details:187 - Thread: 8 | Got job offer for url: https://www.dice.com/job-detail/931dfcd7-a103-40ed-9ba4-397499263fc1
+2023-11-25 18:27:18.928 | INFO     | src.main:get_job_details:187 - Thread: 2 | Got job offer for url: https://www.dice.com/job-detail/c0b25a3f-3851-4fd3-adf4-4b66e832db09
+2023-11-25 18:27:18.978 | INFO     | src.main:get_job_details:187 - Thread: 1 | Got job offer for url: https://www.dice.com/job-detail/e1303207-f802-42ae-a6b4-ad32783f9b83
+2023-11-25 18:27:18.987 | INFO     | src.main:get_job_details:187 - Thread: 5 | Got job offer for url: https://www.dice.com/job-detail/c13e2c34-1409-4d99-8885-284e512ab6bc
+2023-11-25 18:27:19.016 | INFO     | src.main:get_job_details:187 - Thread: 6 | Got job offer for url: https://www.dice.com/job-detail/62a3d8fe-2d21-4a3c-88cc-79b295392cf0
