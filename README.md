@@ -10,6 +10,10 @@ The script is entirely asynchronous and utilizes asynchronous threads (tasks).
 
 `search_query` - search query to use for scraping jobs
 
+`database_url` - database url from supabase
+
+`database_key` - database key from supabase
+
 
 ## Installation
 Requirements: Python 3.10+
@@ -24,7 +28,7 @@ Requirements: Python 3.10+
 
 ## Output
 
-The script will output a CSV file with name: `results.csv`
+The script will save all the scraped jobs into database in table `jobRequirements`.
 
 
 

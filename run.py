@@ -19,6 +19,10 @@ async def run() -> None:
         logger.error("The number of threads must be an integer and greater than 0")
         return
 
+    if not config.get("database_url") or not config.get("database_key"):
+        logger.error("Please specify the database_url and database_key in settings.yaml")
+        return
+
 
     parser = DiceParser(config)
     await parser.start()

@@ -1,7 +1,6 @@
 import asyncio
-from pathlib import Path
+import logging
 
-import aiofiles
 import httpx
 import pyuseragents
 import numpy as np
@@ -10,8 +9,12 @@ from loguru import logger
 from bs4 import BeautifulSoup
 from datetime import datetime
 from typing import Any
-from aiocsv import AsyncWriter
+
+from src.database import Database
 from src.models import JobOffer
+
+
+logging.getLogger("httpx").setLevel(logging.WARNING)
 
 
 class DiceParser(httpx.AsyncClient):
@@ -21,6 +24,9 @@ class DiceParser(httpx.AsyncClient):
         self.user_agent = pyuseragents.random()
         self.config = config
         self.parser_status = False
+
+        self.database = Database(config)
+        self.jobs_data = []
 
         self.headers = {
             'authority': 'job-search-api.svc.dhigroupinc.com',
@@ -136,6 +142,7 @@ class DiceParser(httpx.AsyncClient):
             job_offer = JobOffer(
                 travel_requirements=travel_requirements,
                 title=job_data["title"],
+                guid=job_data["guid"],
                 locations=locations,
                 payrates=payrates,
                 posted_date=job_data["postedDate"],
@@ -170,48 +177,31 @@ class DiceParser(httpx.AsyncClient):
                 logger.warning(f"Thread: {thread_id} | Failed to get job details | {error}")
 
 
-
     async def monitor_queue(self, queue: asyncio.Queue) -> None:
-        file_path = Path(__file__).parent.parent / "results.csv"
-        async with aiofiles.open(file_path, mode="w", encoding="utf-8", newline="") as afp:
-            writer = AsyncWriter(afp, dialect="unix")
-            await writer.writerow([
-                "Title",
-                "Location",
-                "Payrate",
-                "Posted Date",
-                "Company Name",
-                "Job Url",
-                "Job Description",
-                "Easy Apply",
-                "Travel Requirements",
-                "Contract Types",
-                "Skills",
-            ])
-
-            while self.parser_status:
-                job_offer: JobOffer = await queue.get()
-                job_offer.job_description = job_offer.job_description.replace('\n', ' ')
-
-                await writer.writerow([
-                    job_offer.title,
-                    ", ".join(job_offer.locations) if job_offer.locations else None,
-                    ", ".join(job_offer.payrates) if job_offer.payrates else None,
-                    job_offer.posted_date,
-                    job_offer.company_name,
-                    job_offer.job_url,
-                    # job_offer.employmentType,
-                    job_offer.job_description,
-                    job_offer.easy_apply,
-                    ", ".join(job_offer.travel_requirements) if job_offer.travel_requirements else None,
-                    ", ".join(job_offer.contract_types) if job_offer.contract_types else None,
-                    ", ".join(job_offer.skills) if job_offer.skills else None,
-                ])
+        while self.parser_status:
+            job_offer: JobOffer = await queue.get()
+            job_offer.job_description = job_offer.job_description.replace('\n', ' ')
 
 
+            self.jobs_data.append(
+                {
+                    "title": job_offer.title,
+                    "guid": job_offer.guid,
+                    "contractType": ", ".join(job_offer.contract_types) if job_offer.contract_types else None,
+                    "location": ", ".join(job_offer.locations) if job_offer.locations else None,
+                    "payrate": ", ".join(job_offer.payrates) if job_offer.payrates else None,
+                    "postedDate": job_offer.posted_date,
+                    "companyName": job_offer.company_name,
+                    "jobURL": job_offer.job_url,
+                    "jobDescription": job_offer.job_description,
+                    "easyApply": job_offer.easy_apply,
+                    "travelRequirement": ", ".join(job_offer.travel_requirements) if job_offer.travel_requirements else None,
+                    "skills": ", ".join(job_offer.skills) if job_offer.skills else None,
+                }
+            )
 
 
-    async def start(self):
+    async def start(self) -> None:
         logger.success("Parser started..")
         self.parser_status = True
 
@@ -234,4 +224,6 @@ class DiceParser(httpx.AsyncClient):
 
         total_execution_time = (datetime.now() - time_now).total_seconds()
         self.parser_status = False
-        logger.success(f"Parser finished.. | Execution time: {total_execution_time} seconds")
+        logger.success(f"Parser finished.. | Execution time: {total_execution_time} seconds\n\n")
+
+        self.database.insert_jobs_using_threads(self.jobs_data)
