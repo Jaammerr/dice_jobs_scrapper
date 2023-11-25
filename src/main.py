@@ -231,7 +231,7 @@ class DiceParser(httpx.AsyncClient):
 
 
     async def start(self) -> None:
-        logger.success("Parser started..")
+        logger.success(f"Parser started.. | Search query: {self.config.get('search_query')}")
         self.parser_status = True
 
         time_now = datetime.now()
