@@ -66,17 +66,46 @@ class DiceParser(httpx.AsyncClient):
         if not total_count:
             raise Exception('Failed to get total count of jobs')
 
-        logger.info(f'Total count of jobs: {total_count}')
-        self.search_params['pageSize'] = total_count
+        logger.info(f'Total count of jobs: {total_count} | Getting jobs..')
+        if total_count < 1000:
+            self.search_params['pageSize'] = total_count
 
-        response = await self.get(url, params=self.search_params)
-        response.raise_for_status()
+            response = await self.get(url, params=self.search_params)
+            response.raise_for_status()
 
-        jobs: list = response.json().get("data")
-        if not jobs:
-            raise Exception('Failed to get jobs')
+            jobs: list = response.json().get("data")
+            if not jobs:
+                raise Exception('Failed to get jobs')
 
-        return jobs
+            return jobs
+
+        else:
+            jobs: list = []
+            for page in range(1, total_count // 1000 + 2):
+                self.search_params['pageSize'] = 1000
+                self.search_params['page'] = page
+
+                try:
+                    response = await self.get(url, params=self.search_params)
+                    response.raise_for_status()
+
+                except Exception as error:
+                    logger.error(f"Failed to get jobs for page: {page}| {error}")
+                    continue
+
+                jobs.extend(response.json().get("data"))
+
+
+            unique_guids = set()
+            unique_jobs = []
+
+            for job in jobs:
+                guid = job.get("guid")
+                if guid and guid not in unique_guids:
+                    unique_guids.add(guid)
+                    unique_jobs.append(job)
+
+            return unique_jobs
 
 
     async def get_job_details(self, job_data: dict, thread_id: int) -> JobOffer or None:
