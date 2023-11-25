@@ -1,6 +1,6 @@
 ## Generally
 
-The script is designed to gather all job listings on the website https://www.dice.com/ and import them into a CSV format.
+The script is designed to gather all job listings on the website https://www.dice.com/ and export them into supabase database.
 
 The script is entirely asynchronous and utilizes asynchronous threads (tasks).
 
