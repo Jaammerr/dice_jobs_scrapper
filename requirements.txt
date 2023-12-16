@@ -7,4 +7,5 @@ beautifulsoup4~=4.12.2
 aiocsv~=1.2.5
 PyYAML~=6.0.1
 postgrest~=0.13.0
-supabase~=2.1.0
+tortoise-orm
+asyncpg~=0.29.0

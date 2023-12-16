@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 from typing import Any
 
-from src.database import Database
+from src.database import Jobs
 from src.models import JobOffer
 
 
@@ -25,7 +25,6 @@ class DiceParser(httpx.AsyncClient):
         self.config = config
         self.parser_status = False
 
-        self.database = Database(config)
         self.jobs_data = []
 
         self.headers = {
@@ -255,4 +254,4 @@ class DiceParser(httpx.AsyncClient):
         self.parser_status = False
         logger.success(f"Parser finished.. | Execution time: {total_execution_time} seconds\n\n")
 
-        self.database.insert_jobs_using_threads(self.jobs_data)
+        await Jobs.add_multi_jobs(self.jobs_data)
