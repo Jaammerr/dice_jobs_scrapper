@@ -3,6 +3,7 @@ import yaml
 
 from loguru import logger
 from src.main import DiceParser
+from src.database import initialize_database
 
 
 async def run() -> None:
@@ -19,7 +20,7 @@ async def run() -> None:
         logger.error("The number of threads must be an integer and greater than 0")
         return
 
-
+    await initialize_database()
     parser = DiceParser(config)
     await parser.start()
 

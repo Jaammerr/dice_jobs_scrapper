@@ -3,6 +3,7 @@ from dataclasses import dataclass
 
 @dataclass
 class JobOffer:
+    guid: str
     title: str
     payrates: list[str]
     locations: list[str]

@@ -1,6 +1,6 @@
 ## Generally
 
-The script is designed to gather all job listings on the website https://www.dice.com/ and import them into a CSV format.
+The script is designed to gather all job listings on the website https://www.dice.com/ and export them into supabase database.
 
 The script is entirely asynchronous and utilizes asynchronous threads (tasks).
 
@@ -9,6 +9,10 @@ The script is entirely asynchronous and utilizes asynchronous threads (tasks).
 `threads` - number of threads to use for scraping
 
 `search_query` - search query to use for scraping jobs
+
+`database_url` - database url from supabase
+
+`database_key` - database key from supabase
 
 
 ## Installation
@@ -24,7 +28,7 @@ Requirements: Python 3.10+
 
 ## Output
 
-The script will output a CSV file with name: `results.csv`
+The script will save all the scraped jobs into database in table `jobRequirements`.
 
 
 
