@@ -1,4 +1,4 @@
 threads: 10
 search_query: mulesoft
-database_url: https://ceoydummdugbhhzzttyo.supabase.co
-database_key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNlb3lkdW1tZHVnYmhoenp0dHlvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDA4MjcxMDYsImV4cCI6MjAxNjQwMzEwNn0.SZeflNX_6GvCK-BBio2LOCJXudaKAIvN39RKtbgnL1s
+database_url:
+database_key: 
